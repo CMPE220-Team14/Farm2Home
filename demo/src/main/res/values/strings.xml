@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Farm2Home</string>
+
+    <string name="product_list">Product List</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="name">Name</string>
+    <string name="unit_price">Price per lb</string>
+    <string name="quantity">Lbs</string>
+    <string name="view">View</string>
+    <string name="action">Action</string>
+    <string name="order">Order</string>
+    <string name="price">Price</string>
+    <string name="total_price">Total Price</string>
+    <string name="remove">Remove</string>
+    <string name="clear_cart">Clear Cart</string>
+    <string name="pay">Pay</string>
+    <string name="shop">Shop</string>
+    <string name="btn_scan_now">Scan Now</string>
+    <string name="scan_bar_code">Scan a Bar Code</string>
+    <string name="checkout_text">Your Order has been successfully placed, Farm2Home delivers them soon!</string>
+    <string name="checkout_title">Thank you for your order!</string>
+</resources>
