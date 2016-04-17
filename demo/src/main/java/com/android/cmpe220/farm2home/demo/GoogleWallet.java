@@ -150,7 +150,7 @@ public class GoogleWallet extends ActionBarActivity implements GoogleApiClient.C
                 .setPhoneNumberRequired(true)
                 .setShippingAddressRequired(true)
                 .setCurrencyCode("USD")
-                .setShouldRetrieveWalletObjects(true)
+               // .setShouldRetrieveWalletObjects(true)
                 .setEstimatedTotalPrice(amountFinal)
                 .setCart(Cart.newBuilder()
                         .setCurrencyCode("USD")

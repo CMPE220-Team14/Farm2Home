@@ -13,29 +13,28 @@ public class HomeActivity extends Activity
 {
 	Button btnSignIn,btnSignUp;
 	LoginDataBaseAdapter loginDataBaseAdapter;
-	
+
 	@Override
-	protected void onCreate(Bundle savedInstanceState)
-	{
-	     super.onCreate(savedInstanceState);
-	     setContentView(R.layout.main);
-	     
-	     // create a instance of SQLite Database
-	     loginDataBaseAdapter=new LoginDataBaseAdapter(this);
-	     loginDataBaseAdapter=loginDataBaseAdapter.open();
-	     
-	     // Get The Refference Of Buttons
-	     btnSignIn=(Button)findViewById(R.id.buttonSignIN);
-	     btnSignUp=(Button)findViewById(R.id.buttonSignUP);
-			
-	    // Set OnClick Listener on SignUp button 
-	    btnSignUp.setOnClickListener(new View.OnClickListener() {
-		public void onClick(View v) {
-			// TODO Auto-generated method stub
-			
-			/// Create Intent for SignUpActivity  and Start The Activity
-			Intent intentSignUP=new Intent(getApplicationContext(),SignUPActivity.class);
-			startActivity(intentSignUP);
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.main);
+
+		// create a instance of SQLite Database
+		loginDataBaseAdapter = new LoginDataBaseAdapter(this);
+		loginDataBaseAdapter = loginDataBaseAdapter.open();
+
+		// Get The Refference Of Buttons
+		btnSignIn = (Button) findViewById(R.id.buttonSignIN);
+		btnSignUp = (Button) findViewById(R.id.buttonSignUP);
+
+
+		btnSignUp.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				/// Create Intent for SignUpActivity  and Start The Activity
+				Intent intentSignUP = new Intent(getApplicationContext(), Classify.class);
+				startActivity(intentSignUP);
+
 			}
 		});
 	}
