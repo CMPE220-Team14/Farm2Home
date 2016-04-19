@@ -80,8 +80,10 @@ public class HomeActivity extends Activity
 	}
     public void navigatetohome()
     {
-        Intent intent= new Intent(this,ArrayAdapterListViewActivity.class);
-        startActivity(intent);
+        //Intent intent= new Intent(this,ArrayAdapterListViewActivity.class);
+        //startActivity(intent);
+		Intent intent= new Intent(this,FarmerActivity.class);
+		startActivity(intent);
     }
 
 	@Override
