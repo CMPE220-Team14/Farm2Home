@@ -1,6 +1,7 @@
 package com.android.cmpe220.farm2home.demo.constant;
 
 import com.android.cmpe220.farm2home.demo.model.Product;
+import com.android.cmpe220.farm2home.demo.model.Farm;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -37,5 +38,21 @@ public final class Constant {
         PRODUCT_LIST.add(PRODUCT8);
         PRODUCT_LIST.add(PRODUCT9);
         PRODUCT_LIST.add(PRODUCT10);
+    }
+
+    public static final Farm FARM1 = new Farm(1, "Farm1", BigDecimal.valueOf(1.4));
+    public static final Farm FARM2 = new Farm(2, "Farm2", BigDecimal.valueOf(10.3));
+    public static final Farm FARM3 = new Farm(3, "Farm3", BigDecimal.valueOf(4.8));
+    public static final Farm FARM4 = new Farm(4, "Farm4", BigDecimal.valueOf(8.2));
+    public static final Farm FARM5 = new Farm(5, "Farm5", BigDecimal.valueOf(3.7));
+
+    public static final List<Farm> FARM_LIST = new ArrayList<Farm>();
+
+    static {
+        FARM_LIST.add(FARM1);
+        FARM_LIST.add(FARM2);
+        FARM_LIST.add(FARM3);
+        FARM_LIST.add(FARM4);
+        FARM_LIST.add(FARM5);
     }
 }
