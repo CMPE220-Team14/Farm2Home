@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/menu/zxinglegacy_encode.xml",
+        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-legacy/2.0.1/res/menu/zxinglegacy_encode.xml"
+    },
+    {
+        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/menu/zxing_capture.xml",
+        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/menu/zxing_capture.xml"
+    },
+    {
+        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/menu/zxinglegacy_capture.xml",
+        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-legacy/2.0.1/res/menu/zxinglegacy_capture.xml"
+    },
+    {
+        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/menu/zxing_encode.xml",
+        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/menu/zxing_encode.xml"
+    }
+]
