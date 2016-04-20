@@ -74,13 +74,7 @@ public class ShoppingCartActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-  bBarcode.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ShoppingCartActivity.this, BarcodeScan.class);
-                startActivity(intent);
-            }
-        });
+
 
     }
 

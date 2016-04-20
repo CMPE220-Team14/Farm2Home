@@ -37,6 +37,4 @@ public class DataBaseHelper extends SQLiteOpenHelper
 			// Create a new one.
 			onCreate(_db);
 	}
-	
-
 }
