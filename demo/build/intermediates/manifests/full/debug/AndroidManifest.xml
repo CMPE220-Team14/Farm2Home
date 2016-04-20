@@ -51,9 +51,11 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
+        android:name="com.android.cmpe220.farm2home.demo.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.android.cmpe220.farm2home.demo.FarmList" />
         <activity android:name="com.android.cmpe220.farm2home.demo.ProductActivity" />

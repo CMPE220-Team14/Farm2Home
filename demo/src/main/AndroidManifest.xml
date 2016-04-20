@@ -18,7 +18,10 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication"
+        android:largeHeap="true"
+        >
 
         <activity android:name=".FarmList"/>
         <activity android:name="com.android.cmpe220.farm2home.demo.ProductActivity"/>
@@ -68,7 +71,7 @@
             android:name=".Classify"
             android:label="@string/title_activity_classify"
             android:parentActivityName=".HomeActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+           android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.android.cmpe220.farm2home.demo.HomeActivity" />
@@ -120,6 +123,5 @@
             android:value="@integer/google_play_services_version" />
 
     </application>
-
 
 </manifest>

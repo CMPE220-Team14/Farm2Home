@@ -1,7 +1,13 @@
--keep class android.support.multidex.MultiDexApplication {
+-keep class com.android.cmpe220.farm2home.demo.MyApplication {
     <init>();
     void attachBaseContext(android.content.Context);
 }
+-keep class com.android.cmpe220.farm2home.demo.FarmList { <init>(); }
+-keep class com.android.cmpe220.farm2home.demo.ProductActivity { <init>(); }
+-keep class com.android.cmpe220.farm2home.demo.ShoppingCartActivity { <init>(); }
+-keep class com.android.cmpe220.farm2home.demo.GoogleWallet { <init>(); }
+-keep class com.android.cmpe220.farm2home.demo.BarcodeScan { <init>(); }
+-keep class com.android.cmpe220.farm2home.demo.MainActivity { <init>(); }
 -keep class com.android.cmpe220.farm2home.demo.FarmList { <init>(); }
 -keep class com.android.cmpe220.farm2home.demo.ProductActivity { <init>(); }
 -keep class com.android.cmpe220.farm2home.demo.ShoppingCartActivity { <init>(); }

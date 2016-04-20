@@ -21,4 +21,10 @@
     <string name="scan_bar_code">Scan a Bar Code</string>
     <string name="checkout_text">Your Order has been successfully placed, Farm2Home delivers them soon!</string>
     <string name="checkout_title">Thank you for your order!</string>
+
+
+
+    <string name="title_activity_classify">Classify</string>
+    <string name="title_activity_farmer">FarmerActivity</string>
+    <string name="title_activity_add_product">AddProductActivity</string>
 </resources>

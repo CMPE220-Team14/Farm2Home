@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:2:1-125:12
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:2:1-127:12
 	xmlns:android
 		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:4:5-63
 	package
@@ -61,6 +61,8 @@ MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/karthik/Docu
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/AndroidManifest.xml:19:5-79
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:22:5-79
 	android:name
 		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:14:22-76
 uses-permission#android.permission.INTERNET
@@ -85,10 +87,13 @@ MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/karthik/Docu
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:21:5-66
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:21:5-67
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:21:5-67
 	android:name
 		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:15:22-64
 application
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:17:5-122:19
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:17:5-125:19
 MERGED from [com.android.support:appcompat-v7:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
 MERGED from [Farm2Homenew_ver:library:unspecified] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/Farm2Homenew_ver/library/unspecified/AndroidManifest.xml:11:5-12:19
@@ -294,6 +299,18 @@ MERGED from [com.android.support:support-v4:23.1.0] /home/karthik/Documents/Farm
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:20:9-41
 	android:allowBackup
@@ -302,152 +319,160 @@ MERGED from [com.android.support:support-v4:23.1.0] /home/karthik/Documents/Farm
 		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:19:9-43
 	android:theme
 		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:21:9-40
+	android:largeHeap
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:23:9-33
+	android:name
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:22:9-38
 activity#com.android.cmpe220.farm2home.demo.FarmList
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:23:9-45
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:26:9-45
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:23:19-43
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:26:19-43
 activity#com.android.cmpe220.farm2home.demo.ProductActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:24:9-86
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:27:9-86
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:24:19-84
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:27:19-84
 activity#com.android.cmpe220.farm2home.demo.ShoppingCartActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:25:9-91
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:28:9-91
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:25:19-89
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:28:19-89
 activity#com.android.cmpe220.farm2home.demo.GoogleWallet
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:26:9-83
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:29:9-83
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:26:19-81
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:29:19-81
 activity#com.android.cmpe220.farm2home.demo.BarcodeScan
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:27:9-82
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:30:9-82
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:27:19-80
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:30:19-80
 activity#com.android.cmpe220.farm2home.demo.MainActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:28:9-83
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:31:9-83
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:28:19-81
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:31:19-81
 activity#com.android.cmpe220.farm2home.demo.HomeActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:35:9-43:20
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:38:9-46:20
 	android:label
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:37:13-45
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:40:13-45
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:36:13-75
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:39:13-75
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:38:13-42:29
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:41:13-45:29
 action#android.intent.action.MAIN
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:39:17-69
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:42:17-69
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:39:25-66
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:42:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:41:17-77
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:44:17-77
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:41:27-74
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:44:27-74
 activity#com.android.cmpe220.farm2home.demo.SignUPActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:45:9-46:79
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:48:9-49:79
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:46:13-77
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:49:13-77
 activity#com.android.cmpe220.farm2home.demo.ArrayAdapterListViewActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:47:1-91
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:50:1-91
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:47:11-89
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:50:11-89
 activity#com.android.cmpe220.farm2home.demo.PayPal_sdk
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:49:9-50:75
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:52:9-53:75
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:50:13-73
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:53:13-73
 service#com.paypal.android.sdk.payments.PayPalService
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:53:9-55:40
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:56:9-58:40
 	android:exported
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:55:13-37
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:54:13-73
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:57:13-73
 activity#com.paypal.android.sdk.payments.PaymentActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:57:9-84
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:60:9-84
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:57:19-81
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:60:19-81
 activity#com.paypal.android.sdk.payments.LoginActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:58:9-82
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:61:9-82
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:58:19-79
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:61:19-79
 activity#com.paypal.android.sdk.payments.PaymentMethodActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:59:9-90
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:62:9-90
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:59:19-87
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:62:19-87
 activity#com.paypal.android.sdk.payments.PaymentConfirmActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:60:9-91
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:63:9-91
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:60:19-88
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:63:19-88
 activity#io.card.payment.CardIOActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:62:9-64:66
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:65:9-67:66
 	android:configChanges
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:64:13-63
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:67:13-63
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:63:13-58
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:66:13-58
 activity#io.card.payment.DataEntryActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:65:9-70
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:68:9-70
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:65:19-67
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:68:19-67
 activity#com.android.cmpe220.farm2home.demo.Classify
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:67:9-75:20
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:70:9-78:20
 	android:label
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:69:13-60
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:72:13-60
 	android:theme
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:71:13-56
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:74:12-55
 	android:parentActivityName
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:70:13-55
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:73:13-55
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:68:13-37
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:71:13-37
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:72:13-74:83
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:75:13-77:83
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:73:17-63
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:76:17-63
 	android:value
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:74:17-80
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:77:17-80
 activity#com.android.cmpe220.farm2home.demo.FarmerActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:76:9-84:20
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:79:9-87:20
 	android:label
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:78:13-58
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:81:13-58
 	android:theme
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:80:13-56
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:83:13-56
 	android:parentActivityName
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:79:13-55
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:82:13-55
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:77:13-43
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:80:13-43
 activity#com.android.cmpe220.farm2home.demo.AddProductActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:85:9-93:20
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:88:9-96:20
 	android:label
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:87:13-63
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:90:13-63
 	android:theme
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:89:13-56
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:92:13-56
 	android:parentActivityName
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:88:13-57
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:91:13-57
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:86:13-47
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:89:13-47
 activity#com.android.cmpe220.farm2home.demo.MainScreenActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:94:9-97:20
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:97:9-100:20
 	android:label
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:96:13-45
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:99:13-45
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:95:13-47
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:98:13-47
 activity#com.android.cmpe220.farm2home.demo.AllProductsActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:100:9-103:20
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:103:9-106:20
 	android:label
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:102:13-41
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:105:13-41
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:101:13-48
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:104:13-48
 activity#com.android.cmpe220.farm2home.demo.NewProductActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:106:9-109:20
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:109:9-112:20
 	android:label
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:108:13-44
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:111:13-44
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:107:13-47
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:110:13-47
 activity#com.android.cmpe220.farm2home.demo.EditProductActivity
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:112:9-115:20
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:115:9-118:20
 	android:label
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:114:13-41
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:117:13-41
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:113:13-48
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:116:13-48
 meta-data#com.google.android.gms.version
-ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:118:9-120:69
+ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:121:9-123:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
@@ -512,11 +537,12 @@ MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 	android:name
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:119:13-58
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:122:13-58
 	android:value
-		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:120:13-66
+		ADDED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml:123:13-66
 uses-sdk
 INJECTED from /home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:appcompat-v7:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
 MERGED from [Farm2Homenew_ver:library:unspecified] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/Farm2Homenew_ver/library/unspecified/AndroidManifest.xml:7:5-9:41
@@ -773,9 +799,23 @@ MERGED from [com.android.support:design:23.0.0] /home/karthik/Documents/Farm2Hom
 MERGED from [com.android.support:appcompat-v7:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:multidex:1.0.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.1] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v4:23.1.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
@@ -891,6 +931,7 @@ ADDED from [com.journeyapps:zxing-android-legacy:2.0.1] /home/karthik/Documents/
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:26:9-29:64
 MERGED from [com.google.android.gms:play-services-ads:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:26:9-29:64
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:26:9-29:64
 	android:configChanges
 		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:28:13-122
 	android:theme
@@ -899,6 +940,7 @@ MERGED from [com.google.android.gms:play-services-ads:8.4.0] /home/karthik/Docum
 		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:27:13-65
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
 ADDED from [com.google.android.gms:play-services-ads:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:30:9-31:52
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:30:9-31:52
 MERGED from [com.google.android.gms:play-services-ads:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:30:9-31:52
 	android:theme
 		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:31:13-50
@@ -959,6 +1001,7 @@ MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/karthik/Docu
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.android.gms:play-services-gcm:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/AndroidManifest.xml:21:5-82
 MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/AndroidManifest.xml:21:5-82
 	android:name
 		ADDED from [com.google.android.gms:play-services-gcm:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/AndroidManifest.xml:21:22-79
 uses-permission#android.permission.WAKE_LOCK
@@ -966,10 +1009,12 @@ ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthi
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:24:22-65
 provider#com.google.android.gms.measurement.AppMeasurementContentProvider
 ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:28:7-31:37
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:28:7-31:37
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:28:7-31:37
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:28:7-31:37
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:28:7-31:37
@@ -981,6 +1026,7 @@ MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karth
 		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:30:11-90
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
 ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:33:7-39:18
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:33:7-39:18
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:33:7-39:18
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:33:7-39:18
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:33:7-39:18
@@ -996,6 +1042,7 @@ ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthi
 		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:37:19-75
 service#com.google.android.gms.measurement.AppMeasurementService
 ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:41:7-44:37
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:41:7-44:37
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:41:7-44:37
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:41:7-44:37
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:41:7-44:37

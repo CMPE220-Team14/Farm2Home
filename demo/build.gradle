@@ -9,6 +9,7 @@ android {
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
     }
     signingConfigs {
         myConfig {
@@ -60,9 +61,6 @@ dependencies {
     compile 'com.googlecode.json-simple:json-simple:1.1'
 }
 
-
-
-
 android {
     compileSdkVersion 23
     buildToolsVersion '23.0.0'
@@ -80,3 +78,4 @@ dependencies {
 dependencies {
     compile 'com.google.android.gms:play-services-gcm:8.4.0'
 }
+
