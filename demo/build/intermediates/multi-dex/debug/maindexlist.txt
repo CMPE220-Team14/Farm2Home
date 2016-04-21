@@ -113,8 +113,8 @@ com/paypal/android/sdk/payments/ShippingAddress.class
 android/support/design/widget/Snackbar$Duration.class
 com/google/android/gms/common/internal/safeparcel/zza$zza.class
 com/google/common/base/Function.class
-com/google/api/client/googleapis/auth/oauth2/GoogleIdTokenVerifier.class
 com/google/common/collect/ImmutableMultimap.class
+com/google/api/client/googleapis/auth/oauth2/GoogleIdTokenVerifier.class
 android/support/design/R$styleable.class
 com/google/android/gms/internal/zzdv.class
 com/google/common/collect/ImmutableMapEntry.class
@@ -757,8 +757,8 @@ com/google/android/gms/internal/zzbw.class
 com/google/common/collect/Iterables.class
 com/paypal/android/sdk/payments/bn.class
 android/support/v7/widget/LinearLayoutCompat$OrientationMode.class
-com/google/api/client/json/webtoken/JsonWebToken$Header.class
 com/google/common/util/concurrent/Futures$ImmediateSuccessfulFuture.class
+com/google/api/client/json/webtoken/JsonWebToken$Header.class
 android/support/design/widget/ViewOffsetBehavior.class
 com/google/zxing/client/androidlegacy/HelpActivity$1.class
 com/paypal/android/sdk/z.class
@@ -864,6 +864,7 @@ com/google/android/gms/internal/zzcc.class
 com/paypal/android/sdk/v.class
 com/paypal/android/sdk/payments/I.class
 android/support/v4/app/Fragment.class
+com/android/cmpe220/farm2home/demo/SignUPActivity$1RegisterUser.class
 com/google/android/gms/internal/zzgr.class
 android/support/v4/widget/SlidingPaneLayout.class
 com/google/common/collect/TreeBasedTable$TreeRow.class
@@ -1256,8 +1257,8 @@ com/google/android/gms/appinvite/AppInviteInvitation$IntentBuilder$PlatformMode.
 android/support/design/widget/AppBarLayout$LayoutParams$ScrollFlags.class
 com/google/android/gms/games/event/Event.class
 com/google/android/gms/ads/internal/client/ThinAdSizeParcel.class
-com/google/common/collect/ImmutableList.class
 com/google/api/client/googleapis/auth/oauth2/GoogleBrowserClientRequestUrl.class
+com/google/common/collect/ImmutableList.class
 com/google/android/gms/internal/zzht.class
 com/google/android/gms/internal/zzjo.class
 com/google/android/gms/ads/mediation/NetworkExtras.class

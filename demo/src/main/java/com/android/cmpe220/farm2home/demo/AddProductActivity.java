@@ -25,7 +25,7 @@ public class AddProductActivity extends Activity
         loginDataBaseAdapter=loginDataBaseAdapter.open();
 
         // Get Refferences of Views
-        editTextUserName=(EditText)findViewById(R.id.editTextUserName);
+        editTextUserName=(EditText)findViewById(R.id.editTextFarmName);
         editTextPassword=(EditText)findViewById(R.id.editTextPassword);
         editTextConfirmPassword=(EditText)findViewById(R.id.editTextConfirmPassword);
 

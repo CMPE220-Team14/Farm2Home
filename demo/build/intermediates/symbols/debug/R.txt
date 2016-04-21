@@ -865,11 +865,11 @@ int id donate_with 0x7f0f0062
 int id donate_with_google 0x7f0f0063
 int id editTextConfirmPassword 0x7f0f010a
 int id editTextEmailAddress 0x7f0f010b
+int id editTextFarmName 0x7f0f0108
 int id editTextPassword 0x7f0f0109
 int id editTextPasswordToLogin 0x7f0f00dd
 int id editTextPhoneNumber 0x7f0f010c
 int id editTextPostalAddress 0x7f0f010d
-int id editTextUserName 0x7f0f0108
 int id editTextUserNameToLogin 0x7f0f00dc
 int id editText_amount 0x7f0f00ad
 int id editText_friend_name 0x7f0f00ac
