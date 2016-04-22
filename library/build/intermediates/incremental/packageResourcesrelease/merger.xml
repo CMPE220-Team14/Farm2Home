@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/siva/sindhu_studies/cmpe_220/project/Farm2Home/library/src/main/res"/><source path="/Users/siva/sindhu_studies/cmpe_220/project/Farm2Home/library/build/generated/res/rs/release"/><source path="/Users/siva/sindhu_studies/cmpe_220/project/Farm2Home/library/build/generated/res/resValues/release"/></dataSet><dataSet config="release"><source path="/Users/siva/sindhu_studies/cmpe_220/project/Farm2Home/library/src/release/res"/></dataSet><mergedItems/></merger>
