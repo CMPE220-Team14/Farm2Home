@@ -14,7 +14,7 @@
         android:id="@+id/textView8" />
 
     <EditText
-        android:id="@+id/editTextUserName"
+        android:id="@+id/editTextFarmName"
         android:hint="User Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -32,7 +32,7 @@
         android:layout_below="@id/productAction"
         android:layout_marginTop="20dp"
         android:text="Add"
-        android:textSize="14sp"
+        android:textSize="16sp"
         android:onClick="FarmerActivity"
         android:background="@color/orange"></Button>
 
@@ -44,7 +44,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="40dp"
         android:text="Update"
-        android:textSize="14sp"
+        android:textSize="16sp"
         android:onClick="FarmerActivity"
         android:background="@color/orange"></Button>
 

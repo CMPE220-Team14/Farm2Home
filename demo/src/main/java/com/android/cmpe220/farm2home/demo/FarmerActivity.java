@@ -36,26 +36,20 @@ public class FarmerActivity extends AppCompatActivity {
         btnAddEvent.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                Intent intentAddProduct = new Intent(getApplicationContext(),AddProductActivity.class);
-                startActivity(intentAddProduct);
+                Intent intentUpdateProduct = new Intent(getApplicationContext(),AddProductActivity.class);
+                startActivity(intentUpdateProduct);
             }
         });
 
         btnUpdateEvent.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                Intent intentAddProduct = new Intent(getApplicationContext(),AddProductActivity.class);
-                startActivity(intentAddProduct);
+                Intent intentDeleteProduct = new Intent(getApplicationContext(),AddProductActivity.class);
+                startActivity(intentDeleteProduct);
             }
         });
 
-        btnDeleteEvent.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
 
-                Intent intentAddProduct = new Intent(getApplicationContext(),AddProductActivity.class);
-                startActivity(intentAddProduct);
-            }
-        });
     }
 
 }
