@@ -1,334 +1,334 @@
 [
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_layout.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_layout_snackbar.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_radio.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_view.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/farm_list.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/farm_list.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_navigation_item_separator.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_content_include.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/main.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/activity_list_view_array_adapter.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/activity_list_view_array_adapter.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/mr_media_route_controller_material_dialog_b.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_controller_material_dialog_b.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/signup.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/signup.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_close_item_material.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/add_product.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/add_product.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_title_item.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_bar.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/cart_footer.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/cart_footer.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/mr_media_route_chooser_dialog.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_chooser_dialog.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/main.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/mr_media_route_chooser_dialog.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_chooser_dialog.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/activity_pay_pal_selection.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/activity_pay_pal_selection.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_navigation_item_subheader.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/content_farmer.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/content_farmer.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/cart_header.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/cart_header.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/place_autocomplete_item_prediction.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_prediction.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/activity_list_view_array_adapter.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/activity_list_view_array_adapter.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/zxinglegacy_help.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-legacy/2.0.1/res/layout/zxinglegacy_help.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/cart_footer.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/cart_footer.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_singlechoice_material.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_multichoice_material.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/signup.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/signup.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_powered_by_google.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/zxinglegacy_encode.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-legacy/2.0.1/res/layout/zxinglegacy_encode.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/all_products.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/all_products.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/zxinglegacy_help.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-legacy/2.0.1/res/layout/zxinglegacy_help.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_action.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/zxing_help.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/layout/zxing_help.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/place_autocomplete_fragment.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_fragment.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/zxing_encode.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/layout/zxing_encode.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/activity_cart.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/activity_cart.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/barcode_scan.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/barcode_scan.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/activity_pay_pal_sdk.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/activity_pay_pal_sdk.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/add_product.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/add_product.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_layout_tab_text.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_navigation_item.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_action.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_navigation_item_header.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/login.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/login.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/zxinglegacy_encode.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-legacy/2.0.1/res/layout/zxinglegacy_encode.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/main_screen.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/main_screen.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_layout_snackbar.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media_narrow.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/list_item.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_layout_snackbar_include.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_lines.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_lines.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_item_material.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/zxing_capture.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/layout/zxing_capture.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_dialog_title_material.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_navigation_item.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/zxing_capture.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/layout/zxing_capture.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_progress.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_select_dialog_material.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_toolbar.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/activity_pay_pal_sdk.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/activity_pay_pal_sdk.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/adapter_cart_item.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/adapter_cart_item.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/content_classify.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/content_classify.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_popup_menu_item_layout.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/farm_list.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/farm_list.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_layout_snackbar_include.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_checkbox.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/edit_product.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/edit_product.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_material.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/content_farmer.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/content_farmer.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/zxinglegacy_capture.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-legacy/2.0.1/res/layout/zxinglegacy_capture.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/all_products.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/all_products.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/zxing_help.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/layout/zxing_help.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_navigation_menu.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_navigation_menu.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/mr_media_route_list_item.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_list_item.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_layout.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/place_autocomplete_item_prediction.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_prediction.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/list_item.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/list_item.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_up_container.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/activity_cart.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/activity_cart.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_layout_tab_icon.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/zxinglegacy_capture.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-legacy/2.0.1/res/layout/zxinglegacy_capture.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_progress.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/product_list_header.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/product_list_header.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/mr_media_route_controller_material_dialog_b.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_controller_material_dialog_b.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_powered_by_google.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/place_autocomplete_fragment.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_fragment.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_navigation_item_subheader.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/mr_media_route_list_item.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_list_item.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/google_wallet.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/google_wallet.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/edit_product.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/edit_product.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_layout_tab_text.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/zxing_encode.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/layout/zxing_encode.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/google_wallet.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/google_wallet.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_navigation_item_separator.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_expanded_menu_layout.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_navigation_item_header.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/content_classify.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/content_classify.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_cancel_action.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/barcode_scan.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/barcode_scan.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/activity_product.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/activity_product.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/cart_header.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/cart_header.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/activity_pay_pal_selection.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/activity_pay_pal_selection.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/adapter_product.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/adapter_product.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/login.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/login.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_cancel_action.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_icon.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_layout_tab_icon.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_time.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/adapter_cart_item.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/adapter_cart_item.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_media.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/activity_product.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/activity_product.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/product_list_header.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/product_list_header.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/adapter_product.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/adapter_product.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_chronometer.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_up_container.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/main_screen.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/src/main/res/layout/main_screen.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_item_layout.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
     }
 ]

@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout-ldpi-v4/zxinglegacy_capture.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-legacy/2.0.1/res/layout-ldpi-v4/zxinglegacy_capture.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout-ldpi-v4/zxinglegacy_capture.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-legacy/2.0.1/res/layout-ldpi-v4/zxinglegacy_capture.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout-ldpi-v4/zxing_capture.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/layout-ldpi-v4/zxing_capture.xml"
+        "merged": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/res/merged/debug/layout-ldpi-v4/zxing_capture.xml",
+        "source": "/Users/karthikreddymavuram/Documents/Farm2Home/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/layout-ldpi-v4/zxing_capture.xml"
     }
 ]

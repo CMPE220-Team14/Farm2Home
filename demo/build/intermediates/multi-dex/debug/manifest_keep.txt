@@ -12,7 +12,7 @@
 -keep class com.android.cmpe220.farm2home.demo.ProductActivity { <init>(); }
 -keep class com.android.cmpe220.farm2home.demo.ShoppingCartActivity { <init>(); }
 -keep class com.android.cmpe220.farm2home.demo.MainActivity { <init>(); }
--keep class com.android.cmpe220.farm2home.demo.HomeActivity { <init>(); }
+-keep class com.android.cmpe220.farm2home.demo.NewLoginActivity { <init>(); }
 -keep class com.android.cmpe220.farm2home.demo.SignUPActivity { <init>(); }
 -keep class com.android.cmpe220.farm2home.demo.ArrayAdapterListViewActivity { <init>(); }
 -keep class com.android.cmpe220.farm2home.demo.PayPal_sdk { <init>(); }
