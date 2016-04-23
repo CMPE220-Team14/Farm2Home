@@ -16,23 +16,11 @@
         android:background="@android:color/transparent"  />
 
     <Button
-        android:id="@+id/buttonSignIN"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-         android:text="Sign In" 
-         android:onClick="signIn"
+        android:text="Welcome"
+        android:id="@+id/buttonWelcome"
         android:background="@color/orange"
-        android:textAllCaps="true"
-        android:textColor="@android:color/white"
-        android:clickable="true" />
-
-    <Button
-        android:id="@+id/buttonSignUP"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Sign Up"
-        android:background="@color/orange"
-
         android:textAllCaps="true"
         android:textColor="@android:color/white"
         android:clickable="true" />

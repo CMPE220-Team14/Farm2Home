@@ -14,6 +14,9 @@ import com.android.cmpe220.farm2home.demo.R;
 public class Classify extends AppCompatActivity {
 
     Button btnFarmer,btnCustomer;
+    public final static String KEY = "User";
+    int UserType;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,8 +29,10 @@ public class Classify extends AppCompatActivity {
         btnFarmer.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
+                 UserType = 1;
                 /// Create Intent for SignUpActivity  and Start The Activity
-                Intent intentSignUP = new Intent(getApplicationContext(), SignUPActivity.class);
+                Intent intentSignUP = new Intent(getApplicationContext(), SignUpSignIn.class);
+                intentSignUP.putExtra(KEY,UserType);
                 startActivity(intentSignUP);
 
             }
@@ -35,9 +40,11 @@ public class Classify extends AppCompatActivity {
 
         btnCustomer.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                UserType = 2;
                 // TODO Auto-generated method stub
                 /// Create Intent for SignUpActivity  and Start The Activity
-                Intent intentSignUP = new Intent(getApplicationContext(), SignUPActivity.class);
+                Intent intentSignUP = new Intent(getApplicationContext(), SignUpSignIn.class);
+                intentSignUP.putExtra(KEY,UserType);
                 startActivity(intentSignUP);
 
             }

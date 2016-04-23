@@ -23,8 +23,8 @@
     <string name="checkout_title">Thank you for your order!</string>
 
 
-
     <string name="title_activity_classify">Classify</string>
     <string name="title_activity_farmer">FarmerActivity</string>
     <string name="title_activity_add_product">AddProductActivity</string>
+    <string name="title_activity_sign_up_sign_in">SignUpSignIn</string>
 </resources>
