@@ -71,8 +71,7 @@
         <activity
             android:name=".FarmerActivity"
             android:label="@string/title_activity_farmer"
-            android:parentActivityName=".HomeActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:parentActivityName=".HomeActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.android.cmpe220.farm2home.demo.HomeActivity" />
@@ -80,8 +79,7 @@
         <activity
             android:name=".AddProductActivity"
             android:label="@string/title_activity_add_product"
-            android:parentActivityName=".FarmerActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:parentActivityName=".FarmerActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.android.cmpe220.farm2home.demo.FarmerActivity" />
@@ -89,6 +87,12 @@
         <activity
             android:name=".MainScreenActivity"
             android:label="@string/app_name"></activity>
+
+
+        <!-- New Login Activity -->
+        <activity
+            android:name=".NewLoginActivity"
+            android:label="Login"></activity>
 
         <!-- All Product Activity -->
         <activity

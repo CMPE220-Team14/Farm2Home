@@ -30,40 +30,40 @@ public final class R {
 	}
 	public static final class id {
 		public static final int zxing_back_button = 0x7f0f000b;
-		public static final int zxing_barcode_image_view = 0x7f0f0111;
-		public static final int zxing_contents_supplement_text_view = 0x7f0f0118;
-		public static final int zxing_contents_text_view = 0x7f0f0117;
+		public static final int zxing_barcode_image_view = 0x7f0f0115;
+		public static final int zxing_contents_supplement_text_view = 0x7f0f011c;
+		public static final int zxing_contents_text_view = 0x7f0f011b;
 		public static final int zxing_decode = 0x7f0f000c;
 		public static final int zxing_decode_failed = 0x7f0f000d;
 		public static final int zxing_decode_succeeded = 0x7f0f000e;
-		public static final int zxing_format_text_view = 0x7f0f0112;
-		public static final int zxing_help_contents = 0x7f0f011c;
-		public static final int zxing_image_view = 0x7f0f011b;
+		public static final int zxing_format_text_view = 0x7f0f0116;
+		public static final int zxing_help_contents = 0x7f0f0120;
+		public static final int zxing_image_view = 0x7f0f011f;
 		public static final int zxing_launch_product_query = 0x7f0f000f;
-		public static final int zxing_menu_encode = 0x7f0f012f;
-		public static final int zxing_menu_help = 0x7f0f012d;
-		public static final int zxing_menu_share = 0x7f0f012e;
-		public static final int zxing_meta_text_view = 0x7f0f0116;
-		public static final int zxing_meta_text_view_label = 0x7f0f0115;
-		public static final int zxing_preview_view = 0x7f0f010e;
+		public static final int zxing_menu_encode = 0x7f0f0134;
+		public static final int zxing_menu_help = 0x7f0f0132;
+		public static final int zxing_menu_share = 0x7f0f0133;
+		public static final int zxing_meta_text_view = 0x7f0f011a;
+		public static final int zxing_meta_text_view_label = 0x7f0f0119;
+		public static final int zxing_preview_view = 0x7f0f0112;
 		public static final int zxing_quit = 0x7f0f0010;
 		public static final int zxing_restart_preview = 0x7f0f0011;
-		public static final int zxing_result_button_view = 0x7f0f0119;
-		public static final int zxing_result_view = 0x7f0f0110;
+		public static final int zxing_result_button_view = 0x7f0f011d;
+		public static final int zxing_result_view = 0x7f0f0114;
 		public static final int zxing_return_scan_result = 0x7f0f0012;
-		public static final int zxing_status_view = 0x7f0f011a;
-		public static final int zxing_time_text_view = 0x7f0f0114;
-		public static final int zxing_type_text_view = 0x7f0f0113;
-		public static final int zxing_viewfinder_view = 0x7f0f010f;
+		public static final int zxing_status_view = 0x7f0f011e;
+		public static final int zxing_time_text_view = 0x7f0f0118;
+		public static final int zxing_type_text_view = 0x7f0f0117;
+		public static final int zxing_viewfinder_view = 0x7f0f0113;
 	}
 	public static final class layout {
-		public static final int zxing_capture = 0x7f04004d;
-		public static final int zxing_encode = 0x7f04004e;
-		public static final int zxing_help = 0x7f04004f;
+		public static final int zxing_capture = 0x7f040050;
+		public static final int zxing_encode = 0x7f040051;
+		public static final int zxing_help = 0x7f040052;
 	}
 	public static final class menu {
-		public static final int zxing_capture = 0x7f100000;
-		public static final int zxing_encode = 0x7f100001;
+		public static final int zxing_capture = 0x7f100001;
+		public static final int zxing_encode = 0x7f100002;
 	}
 	public static final class raw {
 		public static final int zxing_beep = 0x7f070001;

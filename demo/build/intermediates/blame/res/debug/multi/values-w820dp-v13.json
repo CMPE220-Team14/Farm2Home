@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/siva/sindhu_studies/cmpe_220/project/meera/Farm2Home/demo/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
+        "outputFile": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/Users/siva/sindhu_studies/cmpe_220/project/meera/Farm2Home/demo/src/main/res/values-w820dp/dimens.xml",
+                    "file": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/values-w820dp/dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

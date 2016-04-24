@@ -3,30 +3,28 @@ package com.android.cmpe220.farm2home.demo;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
-import android.view.Menu;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
+import com.android.volley.NetworkError;
 import com.android.volley.NetworkResponse;
+import com.android.volley.NoConnectionError;
+import com.android.volley.ParseError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.ServerError;
+import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
-import com.android.volley.toolbox.HttpHeaderParser;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -81,14 +79,21 @@ public class NewLoginActivity extends AppCompatActivity implements View.OnClickL
         //Creating a string request
         StringRequest stringRequest = new StringRequest(Request.Method.POST, Config.LOGIN_URL,
                 new Response.Listener<String>() {
+
                     @Override
                     public void onResponse(String response) {
+                        Boolean valueres=response.trim().equalsIgnoreCase(Config.LOGIN_SUCCESS);
+
                         //If we are getting success from server
-                        if(response.equalsIgnoreCase(Config.LOGIN_SUCCESS)){
+                        if(valueres){
                             //Creating a shared preference
                             SharedPreferences sharedPreferences = NewLoginActivity.this.getSharedPreferences(Config.SHARED_PREF_NAME, Context.MODE_PRIVATE);
 
-                            //Creating editor to store values to shared preferences
+                            //Creating editor to store values tohttp://localhost/login.php
+                            //
+                            // ```
+                            //
+                            // http://localhost/login.php shared preferences
                             SharedPreferences.Editor editor = sharedPreferences.edit();
 
                             //Adding values to editor
@@ -104,13 +109,28 @@ public class NewLoginActivity extends AppCompatActivity implements View.OnClickL
                         }else{
                             //If the server response is not success
                             //Displaying an error message on toast
-                            Toast.makeText(NewLoginActivity.this, "Invalid username or password", Toast.LENGTH_LONG).show();
+                            Toast.makeText(NewLoginActivity.this, valueres.toString(), Toast.LENGTH_LONG).show();
                         }
                     }
                 },
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
+                        NetworkResponse response=error.networkResponse;
+
+                        if (error instanceof TimeoutError) {
+                            Log.e("Volley", "TimeoutError");
+                        }else if(error instanceof NoConnectionError){
+                            Log.e("Volley", "NoConnectionError");
+                        } else if (error instanceof AuthFailureError) {
+                            Log.e("Volley", "AuthFailureError");
+                        } else if (error instanceof ServerError) {
+                            Log.e("Volley", "ServerError");
+                        } else if (error instanceof NetworkError) {
+                            Log.e("Volley", "NetworkError");
+                        } else if (error instanceof ParseError) {
+                            Log.e("Volley", "ParseError");
+                        }
                         //You can handle error here if you want
                     }
                 }
@@ -133,23 +153,7 @@ public class NewLoginActivity extends AppCompatActivity implements View.OnClickL
         requestQueue.add(stringRequest);
     }
 
-    public void onErrorResponse(VolleyError error) {
 
-        // As of f605da3 the following should work
-        NetworkResponse response = error.networkResponse;
-        if (error instanceof ServerError && response != null) try {
-            String res = new String(response.data,
-                    HttpHeaderParser.parseCharset(response.headers, "utf-8"));
-            // Now you can use any deserializer to make sense of data
-            JSONObject obj = new JSONObject(res);
-        } catch (UnsupportedEncodingException e1) {
-            // Couldn't properly decode data to string
-            e1.printStackTrace();
-        } catch (JSONException e2) {
-            // returned data is not JSONObject?
-            e2.printStackTrace();
-        }
-    }
 
     @Override
     public void onClick(View v) {

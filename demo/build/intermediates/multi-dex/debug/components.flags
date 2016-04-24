@@ -1,0 +1,209 @@
+-injars /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar
+-outjars /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /home/karthik/Android/Sdk/build-tools/23.0.0/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration /home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/multi-dex/debug/components.flags
+
+
+-keep class com.android.cmpe220.farm2home.demo.MyApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.android.cmpe220.farm2home.demo.FarmList {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.ProductActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.ShoppingCartActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.GoogleWallet {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.BarcodeScan {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.MainActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.FarmList {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.ProductActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.ShoppingCartActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.MainActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.HomeActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.SignUPActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.ArrayAdapterListViewActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.PayPal_sdk {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.PayPalService {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.PaymentActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.LoginActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.PaymentMethodActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.PaymentConfirmActivity {
+    <init>();
+}
+
+-keep class io.card.payment.CardIOActivity {
+    <init>();
+}
+
+-keep class io.card.payment.DataEntryActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.Classify {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.FarmerActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.AddProductActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.MainScreenActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.NewLoginActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.AllProductsActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.NewProductActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.EditProductActivity {
+    <init>();
+}
+
+-keep class com.android.cmpe220.farm2home.demo.SignUpSignIn {
+    <init>();
+}
+
+-keep class com.google.zxing.client.android.CaptureActivity {
+    <init>();
+}
+
+-keep class com.google.zxing.client.android.HelpActivity {
+    <init>();
+}
+
+-keep class com.google.zxing.client.android.encode.EncodeActivity {
+    <init>();
+}
+
+-keep class com.google.zxing.client.androidlegacy.CaptureActivity {
+    <init>();
+}
+
+-keep class com.google.zxing.client.androidlegacy.HelpActivity {
+    <init>();
+}
+
+-keep class com.google.zxing.client.androidlegacy.encode.EncodeActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.AdActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.appinvite.PreviewActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

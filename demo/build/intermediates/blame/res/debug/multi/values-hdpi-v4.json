@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/siva/sindhu_studies/cmpe_220/project/meera/Farm2Home/demo/build/intermediates/res/merged/debug/values-hdpi-v4/values-hdpi-v4.xml",
+        "outputFile": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/values-hdpi-v4/values-hdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 327
                 },
                 "from": {
-                    "file": "/Users/siva/sindhu_studies/cmpe_220/project/meera/Farm2Home/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-hdpi/values-hdpi.xml",
+                    "file": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-hdpi/values-hdpi.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
