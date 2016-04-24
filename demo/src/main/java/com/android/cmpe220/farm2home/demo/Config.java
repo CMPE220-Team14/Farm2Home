@@ -5,7 +5,7 @@ package com.android.cmpe220.farm2home.demo;
  */
 public class Config {
     //URL to our login.php file
-    public static final String LOGIN_URL = "http://192.168.2.5/login.php";
+    public static final String LOGIN_URL = "http://ec2-52-39-72-190.us-west-2.compute.amazonaws.com/login.php";
 
     //Keys for email and password as defined in our $_POST['key'] in login.php
     public static final String KEY_EMAIL = "username";
