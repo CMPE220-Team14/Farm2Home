@@ -49,7 +49,28 @@ public class FarmerActivity extends Activity {
             }
         });
 
+        btnUpdateProduct.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
 
+                Intent intentUpdateProduct = new Intent(getApplicationContext(),MainScreenActivity.class);
+                startActivity(intentUpdateProduct);
+            }
+        });
+
+        btnAddEvent.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent intentAddEvent = new Intent(getApplicationContext(),MainScreenActivity.class);
+                startActivity(intentAddEvent);
+            }
+        });
+        btnUpdateEvent.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent intentUpdateEvent = new Intent(getApplicationContext(),MainScreenActivity.class);
+                startActivity(intentUpdateEvent);
+            }
+        });
     }
 
     //Logout function
