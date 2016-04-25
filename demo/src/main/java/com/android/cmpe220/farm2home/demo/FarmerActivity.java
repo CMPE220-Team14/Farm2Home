@@ -18,8 +18,8 @@ import android.support.v7.app.AlertDialog;
 
 public class FarmerActivity extends Activity {
 
-    Button btnAddProduct, btnUpdateProduct, btnDeleteProduct;
-    Button btnAddEvent, btnUpdateEvent, btnDeleteEvent;
+    Button btnAddProduct, btnUpdateProduct;
+    Button btnAddEvent, btnUpdateEvent;
     TextView textView;
 
     @Override
@@ -34,12 +34,12 @@ public class FarmerActivity extends Activity {
         String UserName = sharedPreferences.getString(Config.EMAIL_SHARED_PREF,"Not Available");
 
         //Showing the current logged in email to textview
-        textView.setText("Current User: " + UserName);
+        textView.setText("Welcome " + UserName);
 
         btnAddProduct = (Button) findViewById(R.id.buttonAddProduct);
-           btnAddEvent = (Button) findViewById(R.id.buttonAddEvent);
+        btnUpdateProduct = (Button) findViewById(R.id.buttonUpdateProduct);
+        btnAddEvent = (Button) findViewById(R.id.buttonAddEvent);
         btnUpdateEvent = (Button) findViewById(R.id.buttonUpdateEvent);
-        btnDeleteEvent = (Button) findViewById(R.id.buttonDeleteEvent);
 
         btnAddProduct.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
