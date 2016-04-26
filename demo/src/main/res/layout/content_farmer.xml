@@ -13,24 +13,26 @@
     <TextView
         android:layout_width="280dp"
         android:layout_height="60dp"
-        android:layout_marginTop="37dp"
-        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
         android:textAllCaps="true"
         android:id="@+id/FarmerName"
         android:gravity="center"
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_centerHorizontal="true" />
     <TextView
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:text="Products"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:textAllCaps="true"
         android:gravity="center"
         android:id="@+id/productAction"
         android:layout_gravity="left"
-        android:background="@color/green"
+        android:textColor="@color/black"
         android:layout_below="@id/FarmerName"/>
 
 
@@ -43,7 +45,7 @@
         android:text="Add"
         android:textSize="14sp"
         android:onClick="FarmerActivity"
-        android:background="@color/orange"></Button>
+        android:background="@color/cadmium_orange"></Button>
 
     <Button android:id="@+id/buttonUpdateProduct"
         android:layout_width="wrap_content"
@@ -52,9 +54,9 @@
         android:text="Update"
         android:textSize="14sp"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="90dp"
+        android:layout_marginLeft="100dp"
         android:onClick="FarmerActivity"
-        android:background="@color/orange"
+        android:background="@color/cadmium_orange"
         android:layout_toRightOf="@+id/buttonAddProduct"></Button>
 
     <TextView
@@ -62,35 +64,35 @@
         android:layout_height="60dp"
         android:text="Events"
         android:layout_marginTop="100dp"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:gravity="center"
         android:textAllCaps="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/Event"
         android:layout_gravity="left"
-        android:background="@color/green"
+        android:textColor="@color/black"
         android:layout_below="@id/productAction" />
 
     <Button android:id="@+id/buttonAddEvent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/Event"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="40dp"
         android:text="Add"
         android:textSize="14sp"
         android:onClick="FarmerActivity"
-        android:background="@color/orange"></Button>
+        android:background="@color/cadmium_orange"></Button>
 
     <Button android:id="@+id/buttonUpdateEvent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Update"
         android:textSize="14sp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
         android:onClick="FarmerActivity"
-        android:background="@color/orange"
+        android:background="@color/cadmium_orange"
         android:layout_below="@id/Event"
         android:layout_toRightOf="@+id/buttonAddEvent"></Button>
 
