@@ -10,6 +10,7 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
+import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
@@ -23,7 +24,7 @@ import java.util.HashMap;
 
 public class AllProductsActivity extends ListActivity {
 
-	String url = "http://localhost/php/get_all_products.php?farmname=meera";
+	String url = "http://ec2-52-39-72-190.us-west-2.compute.amazonaws.com/get_all_products.php?farmname=meera";
 	ArrayList<HashMap<String, String>> Item_List;
 	ProgressDialog PD;
 	ListAdapter adapter;
@@ -50,7 +51,7 @@ public class AllProductsActivity extends ListActivity {
 	private void ReadDataFromDB() {
 		PD.show();
 		JsonObjectRequest jreq;
-		jreq = new JsonObjectRequest(0, url,
+		jreq = new JsonObjectRequest(Request.Method.GET, url,
 				new Response.Listener<JSONObject>() {
 
 					@Override
