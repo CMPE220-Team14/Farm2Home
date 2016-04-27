@@ -3,195 +3,122 @@ package com.android.cmpe220.farm2home.demo;
 import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
-import android.widget.TextView;
 
-import org.apache.http.NameValuePair;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class AllProductsActivity extends ListActivity {
 
-	// Progress Dialog
-	private ProgressDialog pDialog;
-
-	// Creating JSON Parser object
-	JSONParser jParser = new JSONParser();
-
-	ArrayList<HashMap<String, String>> productsList;
-	// url to get all products list
-	private static String url_all_products = "http://ec2-52-39-72-190.us-west-2.compute.amazonaws.com/get_all_products.php";
+	String url = "http://localhost/php/get_all_products.php?farmname=meera";
+	ArrayList<HashMap<String, String>> Item_List;
+	ProgressDialog PD;
+	ListAdapter adapter;
 
 	// JSON Node names
-	private static final String TAG_SUCCESS = "success";
-	private static final String TAG_PRODUCTS = "products";
-	private static final String TAG_PID = "pid";
-	private static final String TAG_NAME = "name";
-
-	// products JSONArray
-	JSONArray products = null;
+	public static final String ITEM_ID = "FarmName";
+	public static final String ITEM_NAME = "ProductName";
 
 	@Override
-	public void onCreate(Bundle savedInstanceState) {
+	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.all_products);
 
-		// Hashmap for ListView
-		productsList = new ArrayList<HashMap<String, String>>();
+		Item_List = new ArrayList<HashMap<String, String>>();
 
-		// Loading products in Background Thread
-		new LoadAllProducts().execute();
+		PD = new ProgressDialog(this);
+		PD.setMessage("Loading.....");
+		PD.setCancelable(false);
 
-		// Get listview
-		ListView lv = getListView();
+		getListView().setOnItemClickListener(new ListitemClickListener());
 
-		// on seleting single product
-		// launching Edit Product Screen
-		lv.setOnItemClickListener(new OnItemClickListener() {
+		ReadDataFromDB();
+	}
+
+	private void ReadDataFromDB() {
+		PD.show();
+		JsonObjectRequest jreq;
+		jreq = new JsonObjectRequest(0, url,
+				new Response.Listener<JSONObject>() {
+
+					@Override
+					public void onResponse(JSONObject response) {
+						try {
+							int success = response.getInt("success");
+
+							if (success == 1) {
+								JSONArray ja = response.getJSONArray("products");
+
+								for (int i = 0; i < ja.length(); i++) {
+
+									JSONObject jobj = ja.getJSONObject(i);
+									HashMap<String, String> item = new HashMap<String, String>();
+									item.put(ITEM_ID, jobj.getString(ITEM_ID));
+									item.put(ITEM_NAME,
+											jobj.getString(ITEM_NAME));
+
+									Item_List.add(item);
+
+								} // for loop ends
+
+								String[] from = { ITEM_ID, ITEM_NAME };
+								int[] to = { R.id.ITEM_ID, R.id.item_name };
+
+								adapter = new SimpleAdapter(
+										getApplicationContext(), Item_List,
+										R.layout.view_products, from, to);
+
+								setListAdapter(adapter);
+
+								PD.dismiss();
+
+							} // if ends
+
+						} catch (JSONException e) {
+							e.printStackTrace();
+						}
+
+					}
+				}, new Response.ErrorListener() {
 
 			@Override
-			public void onItemClick(AdapterView<?> parent, View view,
-					int position, long id) {
-				// getting values from selected ListItem
-				String pid = ((TextView) view.findViewById(R.id.pid)).getText()
-						.toString();
-
-				// Starting new intent
-				Intent in = new Intent(getApplicationContext(),
-						EditProductActivity.class);
-				// sending pid to next activity
-				in.putExtra(TAG_PID, pid);
-				
-				// starting new activity and expecting some response back
-				startActivityForResult(in, 100);
+			public void onErrorResponse(VolleyError error) {
+				PD.dismiss();
 			}
 		});
 
-	}
-
-	// Response from Edit Product Activity
-	@Override
-	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-		super.onActivityResult(requestCode, resultCode, data);
-		// if result code 100
-		if (resultCode == 100) {
-			// if result code 100 is received 
-			// means user edited/deleted product
-			// reload this screen again
-			Intent intent = getIntent();
-			finish();
-			startActivity(intent);
-		}
+		// Adding request to request queue
+		Volley_Application.getInstance().addToReqQueue(jreq);
 
 	}
 
-	/**
-	 * Background Async Task to Load all product by making HTTP Request
-	 * */
-	class LoadAllProducts extends AsyncTask<String, String, String> {
 
-		/**
-		 * Before starting background thread Show Progress Dialog
-		 * */
+
+	//On List Item Click move to UpdateDelete Activity
+	class ListitemClickListener implements ListView.OnItemClickListener {
+
 		@Override
-		protected void onPreExecute() {
-			super.onPreExecute();
-			pDialog = new ProgressDialog(AllProductsActivity.this);
-			pDialog.setMessage("Loading products. Please wait...");
-			pDialog.setIndeterminate(false);
-			pDialog.setCancelable(false);
-			pDialog.show();
-		}
+		public void onItemClick(AdapterView<?> parent, View view, int position,
+								long id) {
 
-		/**
-		 * getting All products from url
-		 * */
-		protected String doInBackground(String... args) {
-			// Building Parameters
-			List<NameValuePair> params = new ArrayList<NameValuePair>();
-			// getting JSON string from URL
-			JSONObject json = jParser.makeHttpRequest(url_all_products, "GET", params);
-			
-			// Check your log cat for JSON reponse
-			Log.d("All Products: ", json.toString());
+			Intent modify_intent = new Intent(AllProductsActivity.this,
+					FarmerActivity.class);
 
-			try {
-				// Checking for SUCCESS TAG
-				int success = json.getInt(TAG_SUCCESS);
+			modify_intent.putExtra("item", Item_List.get(position));
 
-				if (success == 1) {
-					// products found
-					// Getting Array of Products
-					products = json.getJSONArray(TAG_PRODUCTS);
-
-					// looping through All Products
-					for (int i = 0; i < products.length(); i++) {
-						JSONObject c = products.getJSONObject(i);
-
-						// Storing each json item in variable
-						String id = c.getString(TAG_PID);
-						String name = c.getString(TAG_NAME);
-
-						// creating new HashMap
-						HashMap<String, String> map = new HashMap<String, String>();
-
-						// adding each child node to HashMap key => value
-						map.put(TAG_PID, id);
-						map.put(TAG_NAME, name);
-
-						// adding HashList to ArrayList
-						productsList.add(map);
-					}
-				} else {
-					// no products found
-					// Launch Add New product Activity
-					Intent i = new Intent(getApplicationContext(),
-							NewProductActivity.class);
-					// Closing all previous activities
-					i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-					startActivity(i);
-				}
-			} catch (JSONException e) {
-				e.printStackTrace();
-			}
-
-			return null;
-		}
-
-		/**
-		 * After completing background task Dismiss the progress dialog
-		 * **/
-		protected void onPostExecute(String file_url) {
-			// dismiss the dialog after getting all products
-			pDialog.dismiss();
-			// updating UI from Background Thread
-			runOnUiThread(new Runnable() {
-				public void run() {
-					/**
-					 * Updating parsed JSON data into ListView
-					 * */
-					ListAdapter adapter = new SimpleAdapter(
-							AllProductsActivity.this, productsList,
-							R.layout.list_item, new String[] { TAG_PID,
-									TAG_NAME},
-							new int[] { R.id.pid, R.id.name });
-					// updating listview
-					setListAdapter(adapter);
-				}
-			});
+			startActivity(modify_intent);
 
 		}
 

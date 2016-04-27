@@ -17,16 +17,16 @@
         android:layout_centerHorizontal="true"
         android:text="Sign Up"
         android:textSize="14sp"
-        android:onClick="FarmerActivity"
+        android:clickable="true"
         android:background="@color/orange"></Button>
 
-    <Button android:id="@+id/buttonSignIn"
+    <Button android:id="@+id/SignIn"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/buttonSignUp"
         android:layout_centerHorizontal="true"
         android:text="Sign In"
         android:textSize="14sp"
-        android:onClick="FarmerActivity"
+        android:clickable="true"
         android:background="@color/green"></Button>
 </RelativeLayout>

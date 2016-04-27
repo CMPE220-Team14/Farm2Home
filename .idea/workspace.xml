@@ -10,14 +10,489 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04a01c93-89ba-4841-b901-2446566510e2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/color.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$anim.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$bool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/mediarouter/R$anim.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/mediarouter/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/mediarouter/R$bool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/mediarouter/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/mediarouter/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/mediarouter/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/mediarouter/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/mediarouter/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/mediarouter/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/mediarouter/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/mediarouter/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/mediarouter/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/mediarouter/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/AllProductsActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/AllProductsActivity$LoadAllProducts$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/AllProductsActivity$LoadAllProducts.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/AllProductsActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/BarcodeScan$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/BarcodeScan$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/BarcodeScan.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/Classify$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/Classify$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/Classify.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/Config.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/GoogleWallet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/MyApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/NewLoginActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/NewLoginActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/NewLoginActivity$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/NewLoginActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/NewProductActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/NewProductActivity$CreateNewProduct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/NewProductActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/PayPal_selection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$anim.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$array.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$bool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$mipmap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R$xml.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/SignUPActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/SignUPActivity$1RegisterUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/SignUPActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/ads/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/ads/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/ads/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/ads/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/ads/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/ads/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/ads/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/ads/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/ads/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/ads/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/ads/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/ads/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/all/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/analytics/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/analytics/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/analytics/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/analytics/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/analytics/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/analytics/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/analytics/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/analytics/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/analytics/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/analytics/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/analytics/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/analytics/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appindexing/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appinvite/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appstate/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appstate/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appstate/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appstate/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appstate/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appstate/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appstate/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appstate/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appstate/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appstate/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appstate/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/appstate/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/auth/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/auth/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/auth/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/auth/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/auth/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/auth/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/auth/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/auth/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/auth/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/auth/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/auth/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/auth/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/base/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/base/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/base/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/base/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/base/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/base/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/base/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/base/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/base/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/base/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/base/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/base/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/cast/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/cast/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/cast/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/cast/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/cast/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/cast/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/cast/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/cast/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/cast/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/cast/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/cast/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/cast/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/drive/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/drive/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/drive/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/drive/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/drive/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/drive/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/drive/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/drive/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/drive/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/drive/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/drive/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/drive/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/fitness/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/fitness/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/fitness/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/fitness/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/fitness/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/fitness/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/fitness/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/fitness/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/fitness/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/fitness/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/fitness/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/fitness/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/games/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/games/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/games/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/games/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/games/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/games/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/games/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/games/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/games/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/games/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/games/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/games/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/gcm/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/gcm/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/gcm/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/gcm/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/gcm/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/gcm/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/gcm/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/gcm/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/gcm/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/gcm/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/gcm/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/gcm/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/identity/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/identity/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/identity/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/identity/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/identity/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/identity/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/identity/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/identity/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/identity/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/identity/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/identity/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/identity/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/location/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/location/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/location/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/location/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/location/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/location/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/location/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/location/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/location/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/location/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/location/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/location/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/maps/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/maps/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/maps/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/maps/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/maps/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/maps/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/maps/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/maps/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/maps/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/maps/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/maps/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/maps/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/measurement/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/measurement/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/measurement/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/measurement/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/measurement/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/measurement/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/measurement/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/measurement/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/measurement/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/measurement/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/measurement/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/measurement/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/nearby/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/nearby/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/nearby/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/nearby/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/nearby/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/nearby/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/nearby/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/nearby/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/nearby/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/nearby/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/nearby/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/nearby/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/panorama/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/panorama/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/panorama/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/panorama/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/panorama/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/panorama/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/panorama/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/panorama/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/panorama/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/panorama/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/panorama/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/panorama/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/plus/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/plus/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/plus/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/plus/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/plus/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/plus/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/plus/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/plus/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/plus/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/plus/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/plus/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/plus/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/safetynet/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/vision/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/vision/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/vision/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/vision/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/vision/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/vision/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/vision/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/vision/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/vision/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/vision/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/vision/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/vision/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wallet/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wallet/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wallet/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wallet/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wallet/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wallet/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wallet/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wallet/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wallet/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wallet/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wallet/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wallet/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wearable/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wearable/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wearable/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wearable/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wearable/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wearable/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wearable/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wearable/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wearable/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wearable/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wearable/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/android/gms/wearable/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/android/R$array.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/android/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/android/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/android/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/android/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/android/R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/android/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/android/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/android/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/android/R$xml.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/android/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/androidlegacy/R$array.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/androidlegacy/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/androidlegacy/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/androidlegacy/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/androidlegacy/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/androidlegacy/R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/androidlegacy/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/androidlegacy/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/androidlegacy/R$xml.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/google/zxing/client/androidlegacy/R.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/Farm2Home/library/unspecified/AndroidManifest.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/Farm2Home/library/unspecified/aapt/AndroidManifest.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/Farm2Home/library/unspecified/jars/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package.marker" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/arm64-v8a/libcardioDecider.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/arm64-v8a/libcardioRecognizer.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/arm64-v8a/libcardioRecognizer_tegra2.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/arm64-v8a/libopencv_core.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/arm64-v8a/libopencv_imgproc.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/armeabi-v7a/libcardioDecider.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/armeabi-v7a/libcardioRecognizer.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/armeabi-v7a/libcardioRecognizer_tegra2.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/armeabi-v7a/libopencv_core.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/armeabi-v7a/libopencv_imgproc.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/armeabi/libcardioDecider.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/mips/libcardioDecider.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/x86/libcardioDecider.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/x86/libcardioRecognizer.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/x86/libcardioRecognizer_tegra2.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/x86/libopencv_core.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/x86/libopencv_imgproc.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/x86_64/libcardioDecider.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/x86_64/libcardioRecognizer.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/x86_64/libcardioRecognizer_tegra2.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/x86_64/libopencv_core.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/jniLibs/debug/x86_64/libopencv_imgproc.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/componentClasses.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/components.flags" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/maindexlist.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/manifest_keep.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/SignUpSignIn$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/SignUpSignIn$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/SignUpSignIn$2.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/SignUpSignIn$2.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/arm64-v8a/libcardioDecider.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/arm64-v8a/libcardioRecognizer.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/arm64-v8a/libcardioRecognizer_tegra2.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/arm64-v8a/libopencv_core.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/arm64-v8a/libopencv_imgproc.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi-v7a/libcardioDecider.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi-v7a/libcardioRecognizer.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi-v7a/libcardioRecognizer_tegra2.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi-v7a/libopencv_core.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi-v7a/libopencv_imgproc.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi/libcardioDecider.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/mips/libcardioDecider.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libcardioDecider.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libcardioRecognizer.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libcardioRecognizer_tegra2.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libopencv_core.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libopencv_imgproc.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86_64/libcardioDecider.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86_64/libcardioRecognizer.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86_64/libcardioRecognizer_tegra2.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86_64/libopencv_core.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86_64/libopencv_imgproc.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/outputs/apk/demo-debug-unaligned.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/outputs/apk/demo-debug.apk" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-14.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-14.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/AddProductActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/AddProductActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/ArrayAdapterListViewActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/ArrayAdapterListViewActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/EditProductActivity$GetProductDetails$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/EditProductActivity$GetProductDetails$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/EditProductActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/EditProductActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/FarmList.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/FarmList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/FarmerActivity$2.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/FarmerActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/FarmerActivity$3.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/FarmerActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/FarmerActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/FarmerActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/Farmer_Product$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/Farmer_Product$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/Farmer_Product$LoadAllProducts$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/Farmer_Product$LoadAllProducts$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/Farmer_Product.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/Farmer_Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/HomeActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/HomeActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/MainActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/MainScreenActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/MainScreenActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/PayPal_sdk.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/PayPal_sdk.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/ProductActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/ProductActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/ShoppingCartActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/ShoppingCartActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/SignUpSignIn.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/SignUpSignIn.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/adapter/CartItemAdapter.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/adapter/CartItemAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/adapter/ProductAdapter.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/android/cmpe220/farm2home/demo/adapter/ProductAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/Farm2Homenew_ver/library/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/Farm2Homenew_ver/library/unspecified/jars/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services/8.4.0/jars/classes.jar" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services/8.4.0/jars/classes.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/classes.jar" />
@@ -25,32 +500,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/library/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/outputs/aar/library-debug.aar" afterPath="$PROJECT_DIR$/library/build/outputs/aar/library-debug.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/outputs/aar/library-release.aar" afterPath="$PROJECT_DIR$/library/build/outputs/aar/library-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_2_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/library_aar_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/library_aar_1_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_23_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_23_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_http_legacy_android_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_http_legacy_android_23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appindexing_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appindexing_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appstate_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appstate_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_nearby_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_nearby_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_vision_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_vision_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wallet_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_wallet_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/zxing_android_embedded_2_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/zxing_android_embedded_2_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/zxing_android_integration_2_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/zxing_android_integration_2_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Farm2Homenew_ver.iml" afterPath="$PROJECT_DIR$/Farm2Homenew_ver.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build.gradle" afterPath="$PROJECT_DIR$/demo/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/demo/build/generated/source/r/debug/android/support/design/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/demo/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/generated/source/r/debug/android/support/v7/mediarouter/R.java" afterPath="$PROJECT_DIR$/demo/build/generated/source/r/debug/android/support/v7/mediarouter/R.java" />
@@ -81,174 +532,20 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/generated/source/r/debug/com/google/android/gms/wearable/R.java" afterPath="$PROJECT_DIR$/demo/build/generated/source/r/debug/com/google/android/gms/wearable/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/generated/source/r/debug/com/google/zxing/client/android/R.java" afterPath="$PROJECT_DIR$/demo/build/generated/source/r/debug/com/google/zxing/client/android/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/generated/source/r/debug/com/google/zxing/client/androidlegacy/R.java" afterPath="$PROJECT_DIR$/demo/build/generated/source/r/debug/com/google/zxing/client/androidlegacy/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-af.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-af.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-am.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-am.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ar.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ar.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-az-rAZ.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-az-rAZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-bg.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-bg.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-bn-rBD.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-bn-rBD.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ca.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ca.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-cs.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-cs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-da.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-da.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-de.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-de.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-el.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-el.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-en-rAU.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-en-rAU.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-en-rGB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-en-rIN.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-en-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-es-rUS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-es.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-et-rEE.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-et-rEE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-eu-rES.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-eu-rES.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-eu.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-eu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-fa.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-fa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-fi.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-fi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-fr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-gl-rES.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-gl-rES.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-gu-rIN.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-gu-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-h320dp-v13.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-h320dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-he.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-he.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-hi.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-hi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-hr.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-hr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-hu.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-hu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-hy-rAM.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-hy-rAM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-id.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-id.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-in.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-in.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-is-rIS.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-is-rIS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-it.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-iw.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-iw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ja.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ka-rGE.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ka-rGE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-kk-rKZ.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-kk-rKZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-km-rKH.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-km-rKH.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-kn-rIN.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-kn-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ko.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ky-rKG.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ky-rKG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-land.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-large-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-large-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ldrtl-v23.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ldrtl-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-lo-rLA.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-lo-rLA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-lt.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-lt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-lv.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-lv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-mk-rMK.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-mk-rMK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ml-rIN.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ml-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-mn-rMN.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-mn-rMN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-mr-rIN.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-mr-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ms-rMY.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ms-rMY.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-my-rMM.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-my-rMM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-nb.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-nb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ne-rNP.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ne-rNP.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-nl.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-nl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-pa-rIN.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-pa-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-pl.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-pl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-port.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-port.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-pt.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-pt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ro.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ro.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ru.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-si-rLK.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-si-rLK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-sk.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-sk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-sl.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-sl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-sq-rAL.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-sq-rAL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-sr.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-sr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-sv.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-sv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-sw.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-sw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ta-rIN.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ta-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-te-rIN.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-te-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-th.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-th.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-tl.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-tl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-tr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-uk.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-uk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ur-rPK.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-ur-rPK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-uz-rUZ.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-uz-rUZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-v12.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-v12.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-v14.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-v17.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-v18.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-v18.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-v22.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-v22.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-v23.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-vi.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-vi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-xlarge-land-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-xlarge-land-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-zu.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values-zu.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/anim.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/color-v11.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/color-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/color-v23.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/color-v23.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/color.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi-v17.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi-v17.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-tvdpi-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-tvdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-v21.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-v23.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-land.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-land.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-ldpi-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-ldpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-sw600dp-v13.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-sw600dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-v17.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-v21.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-v21.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/menu.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/menu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-hdpi-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-mdpi-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-xhdpi-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/raw.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/raw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/xml.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/xml.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/layout/add_product.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/layout/add_product.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/layout/content_farmer.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/layout/content_farmer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/layout/main_screen.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/layout/main_screen.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/layout/content_sign_up_sign_in.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/layout/content_sign_up_sign_in.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/demo/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/demo/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/demo/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/Config.java" afterPath="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/Config.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/FarmerActivity.java" afterPath="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/FarmerActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/MainScreenActivity.java" afterPath="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/MainScreenActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/NewLoginActivity.java" afterPath="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/NewLoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/SignUpSignIn.java" afterPath="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/SignUpSignIn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/main/res/layout/content_farmer.xml" afterPath="$PROJECT_DIR$/demo/src/main/res/layout/content_farmer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/main/res/layout/main_screen.xml" afterPath="$PROJECT_DIR$/demo/src/main/res/layout/main_screen.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/demo/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeReleaseAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/library.iml" afterPath="$PROJECT_DIR$/library/library.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/AllProductsActivity.java" afterPath="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/AllProductsActivity.java" />
     </list>
     <ignored path="Farm2Homenew_ver.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -269,7 +566,20 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Farm2Homenew_ver" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+            </PATH>
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -278,118 +588,127 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FarmerActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/FarmerActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="79" column="84" selection-start-line="79" selection-start-column="72" selection-end-line="79" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainScreenActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/MainScreenActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="74" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
+              <caret line="59" column="67" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4439656">
-              <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+            <state vertical-scroll-proportion="5.0">
+              <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/HomeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="73" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewLoginActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/NewLoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AllProductsActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/AllProductsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.2100841">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
-                <element signature="e#902#920#0" expanded="true" />
-                <element signature="e#1593#1611#0" expanded="true" />
-                <element signature="e#2775#2808#0" expanded="true" />
-                <element signature="e#3197#3228#0" expanded="true" />
-                <element signature="e#3565#3601#0" expanded="true" />
-                <element signature="e#3942#3960#0" expanded="true" />
-                <element signature="e#4914#4953#0" expanded="true" />
-                <element signature="e#5043#5083#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1418#2412#0" expanded="true" />
+                <element signature="e#1819#1835#0" expanded="true" />
+                <element signature="e#2411#2412#0" expanded="true" />
+                <element signature="e#2414#2537#0" expanded="true" />
+                <element signature="e#2536#2537#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AllProductsActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/AllProductsActivity.java">
+      <file leaf-file-name="login.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/login.xml">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="100" column="7" selection-start-line="100" selection-start-column="7" selection-end-line="100" selection-end-column="7" />
+              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayAdapterListViewActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/ArrayAdapterListViewActivity.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BarcodeScan.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/BarcodeScan.java">
+      <file leaf-file-name="view_products.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/view_products.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state vertical-scroll-proportion="-3.0930233">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Classify.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/Classify.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="82" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="55" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddProductActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/AddProductActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.207547">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -2652,7 +2971,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5845145412168" />
+        <entry key="$PROJECT_DIR$" value="5845503751277" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2850,6 +3169,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.21.0/e46e63530f04ce8e7133423d6857c633d203e340/google-api-client-android-1.21.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-gson/1.21.0/37de4d5c38d1961c49bff32873623dc1cf375dd9/google-api-client-gson-1.21.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1/5e303a03d04e6788dddfa3655272580ae0fc13bb/json-simple-1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library-aar/1.0.0/cc8071e1ce2c478bc9974c1044c3f6f0b2a96bb0/library-aar-1.0.0.aar" />
                             <option value="$USER_HOME$/Android/Sdk/extras/google/m2repository/com/google/android/gms/play-services-ads/8.4.0/play-services-ads-8.4.0.aar" />
                             <option value="$USER_HOME$/Android/Sdk/extras/google/m2repository/com/google/android/gms/play-services-identity/8.4.0/play-services-identity-8.4.0.aar" />
@@ -3124,8 +3444,6 @@
       <list>
         <option value="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/SignUpSignIn.java" />
         <option value="$PROJECT_DIR$/demo/src/main/res/layout/login.xml" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/Config.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/NewLoginActivity.java" />
         <option value="$PROJECT_DIR$/demo/src/main/res/layout/menu.xml" />
         <option value="$PROJECT_DIR$/demo/src/main/res/layout/content_farmer.xml" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/FarmerActivity.java" />
@@ -3135,6 +3453,13 @@
         <option value="$PROJECT_DIR$/demo/src/main/res/menu/activity_menu.xml" />
         <option value="$PROJECT_DIR$/demo/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/demo/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/Config.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/res/layout/all_products.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/Volley_Application.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/res/layout/view_products.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/NewLoginActivity.java" />
+        <option value="$PROJECT_DIR$/demo/build.gradle" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/AllProductsActivity.java" />
       </list>
     </option>
   </component>
@@ -3170,6 +3495,7 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3177,6 +3503,16 @@
               <option name="myItemId" value="Farm2Homenew_ver" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Farm2Homenew_ver" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -3186,24 +3522,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Farm2Homenew_ver" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3222,9 +3540,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3515,24 +3832,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.4803759" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19527897" sideWeight="0.3106689" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19527897" sideWeight="0.6893311" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5196241" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45171675" sideWeight="0.6865672" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.49585405" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.49806523" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.110558316" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3543,9 +3862,15 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -3555,12 +3880,54 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/FarmList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/GoogleWallet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/BarcodeScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/Classify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="82" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/FarmerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="101" column="50" selection-start-line="101" selection-start-column="50" selection-end-line="101" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3601,16 +3968,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
-          <folding>
-            <element signature="e#902#920#0" expanded="true" />
-            <element signature="e#1593#1611#0" expanded="true" />
-            <element signature="e#2775#2808#0" expanded="true" />
-            <element signature="e#3197#3228#0" expanded="true" />
-            <element signature="e#3565#3601#0" expanded="true" />
-            <element signature="e#3942#3960#0" expanded="true" />
-            <element signature="e#4914#4953#0" expanded="true" />
-            <element signature="e#5043#5083#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3658,9 +4016,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3676,51 +4032,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/HomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="73" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/SignUpSignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/login.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/NewLoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="78" selection-start-line="100" selection-start-column="78" selection-end-line="100" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3744,44 +4056,10 @@
             <element signature="e#295#330#0" expanded="true" />
             <element signature="e#356#391#0" expanded="true" />
             <element signature="e#415#448#0" expanded="true" />
-            <element signature="e#762#795#0" expanded="true" />
-            <element signature="e#824#859#0" expanded="true" />
-            <element signature="e#889#924#0" expanded="true" />
-            <element signature="e#952#985#0" expanded="true" />
-            <element signature="e#1799#1832#0" expanded="true" />
-            <element signature="e#1861#1896#0" expanded="true" />
-            <element signature="e#1926#1961#0" expanded="true" />
-            <element signature="e#1989#2022#0" expanded="true" />
-            <element signature="e#3741#3774#0" expanded="true" />
-            <element signature="e#3803#3838#0" expanded="true" />
-            <element signature="e#3868#3903#0" expanded="true" />
-            <element signature="e#3931#3964#0" expanded="true" />
           </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/farm_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/main_screen.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
@@ -3836,24 +4114,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="79" column="84" selection-start-line="79" selection-start-column="72" selection-end-line="79" selection-end-column="84" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/AddProductActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/AllProductsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="7" selection-start-line="100" selection-start-column="7" selection-end-line="100" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3873,6 +4135,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/FarmList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/GoogleWallet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/AddProductActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/farm_list.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/main_screen.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.125">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/MyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/Volley_Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/all_products.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.5454545">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/SignUPActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/SignUpSignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding>
+            <element signature="e#663#1087#0" expanded="false" />
+            <element signature="e#1086#1087#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/Classify.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3884,7 +4244,53 @@
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="55" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/view_products.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0930233">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/login.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/NewLoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="73" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="73" />
           <folding />
         </state>
       </provider>
@@ -3892,24 +4298,46 @@
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/MainScreenActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="74" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
+          <caret line="59" column="67" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4439656">
-          <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+        <state vertical-scroll-proportion="5.0">
+          <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/android/cmpe220/farm2home/demo/AllProductsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2100841">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
-            <element signature="e#902#920#0" expanded="true" />
-            <element signature="e#1593#1611#0" expanded="true" />
-            <element signature="e#2775#2808#0" expanded="true" />
-            <element signature="e#3197#3228#0" expanded="true" />
-            <element signature="e#3565#3601#0" expanded="true" />
-            <element signature="e#3942#3960#0" expanded="true" />
-            <element signature="e#4914#4953#0" expanded="true" />
-            <element signature="e#5043#5083#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1418#2412#0" expanded="true" />
+            <element signature="e#1819#1835#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2414#2537#0" expanded="true" />
+            <element signature="e#2536#2537#0" expanded="true" />
           </folding>
         </state>
       </provider>

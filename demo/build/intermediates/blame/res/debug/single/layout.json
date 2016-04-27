@@ -24,6 +24,10 @@
         "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_view.xml"
     },
     {
+        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/activity_add_event.xml",
+        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/activity_add_event.xml"
+    },
+    {
         "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/activity_main.xml"
     },
@@ -76,12 +80,16 @@
         "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/content_farmer.xml"
     },
     {
+        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/zxinglegacy_help.xml",
+        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-legacy/2.0.1/res/layout/zxinglegacy_help.xml"
+    },
+    {
         "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/place_autocomplete_item_prediction.xml",
         "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_prediction.xml"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/zxinglegacy_help.xml",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-legacy/2.0.1/res/layout/zxinglegacy_help.xml"
+        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/content_add_event.xml",
+        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/content_add_event.xml"
     },
     {
         "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
@@ -98,6 +106,10 @@
     {
         "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
         "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/view_products.xml",
+        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/res/layout/view_products.xml"
     },
     {
         "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/layout/all_products.xml",

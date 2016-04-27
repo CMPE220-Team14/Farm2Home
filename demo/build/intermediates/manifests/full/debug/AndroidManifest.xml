@@ -158,6 +158,15 @@
                 android:value="com.android.cmpe220.farm2home.demo.Classify" />
         </activity>
         <activity
+            android:name="com.android.cmpe220.farm2home.demo.AddEventActivity"
+            android:label="@string/title_activity_add_event"
+            android:parentActivityName="com.android.cmpe220.farm2home.demo.FarmerActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.cmpe220.farm2home.demo.FarmerActivity" />
+        </activity>
+        <activity
             android:name="com.google.zxing.client.android.CaptureActivity"
             android:clearTaskOnLaunch="true"
             android:screenOrientation="sensorLandscape"

@@ -160,12 +160,12 @@
         "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_text_light_disabled.9.png"
     },
     {
-        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable-mdpi/abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_light_pressed.9.png",
         "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable-mdpi/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
