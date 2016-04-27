@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.cmpe220.farm2home.demo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <!-- for card.io card scanning -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <!-- for most things, including card.io & paypal -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" /> <!-- TODO make this not required again after android.hardware.camera.any is available -->
+    <!-- Donut-specific flags which allow us to run on any dpi screens. -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" /> <!-- Permissions required for GCM -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Optional permission for App measurement to run. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        name="com.android.cmpe220.farm2home.demo.MyApplication"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.android.cmpe220.farm2home.demo.FarmList" />
+        <activity android:name="com.android.cmpe220.farm2home.demo.ProductActivity" />
+        <activity android:name="com.android.cmpe220.farm2home.demo.ShoppingCartActivity" />
+        <activity android:name="com.android.cmpe220.farm2home.demo.GoogleWallet" />
+        <activity android:name="com.android.cmpe220.farm2home.demo.BarcodeScan" />
+        <activity android:name="com.android.cmpe220.farm2home.demo.MainActivity" />
+        <activity android:name="com.android.cmpe220.farm2home.demo.FarmList" />
+        <activity android:name="com.android.cmpe220.farm2home.demo.ProductActivity" />
+        <activity android:name="com.android.cmpe220.farm2home.demo.ShoppingCartActivity" />
+        <activity android:name="com.android.cmpe220.farm2home.demo.MainActivity" />
+        <activity
+            android:name="com.android.cmpe220.farm2home.demo.HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.cmpe220.farm2home.demo.SignUPActivity" />
+        <activity android:name="com.android.cmpe220.farm2home.demo.ArrayAdapterListViewActivity" />
+        <activity android:name="com.android.cmpe220.farm2home.demo.PayPal_sdk" />
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+        <activity
+            android:name="com.android.cmpe220.farm2home.demo.Classify"
+            android:label="@string/title_activity_classify"
+            android:parentActivityName="com.android.cmpe220.farm2home.demo.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.cmpe220.farm2home.demo.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.android.cmpe220.farm2home.demo.FarmerActivity"
+            android:label="@string/title_activity_farmer"
+            android:parentActivityName="com.android.cmpe220.farm2home.demo.HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.cmpe220.farm2home.demo.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.android.cmpe220.farm2home.demo.AddProductActivity"
+            android:label="@string/title_activity_add_product"
+            android:parentActivityName="com.android.cmpe220.farm2home.demo.FarmerActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.cmpe220.farm2home.demo.FarmerActivity" />
+        </activity>
+        <activity
+            android:name="com.android.cmpe220.farm2home.demo.MainScreenActivity"
+            android:label="@string/app_name" />
+
+        <!-- New Login Activity -->
+        <activity
+            android:name="com.android.cmpe220.farm2home.demo.NewLoginActivity"
+            android:label="Login" />
+
+        <!-- All Product Activity -->
+        <activity
+            android:name="com.android.cmpe220.farm2home.demo.AllProductsActivity"
+            android:label="All Products" />
+
+        <!-- Add Product Activity -->
+        <activity
+            android:name="com.android.cmpe220.farm2home.demo.NewProductActivity"
+            android:label="Add New Product" />
+
+        <!-- Edit Product Activity -->
+        <activity
+            android:name="com.android.cmpe220.farm2home.demo.EditProductActivity"
+            android:label="Edit Product" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.android.cmpe220.farm2home.demo.SignUpSignIn"
+            android:label="@string/title_activity_sign_up_sign_in"
+            android:parentActivityName="com.android.cmpe220.farm2home.demo.Classify"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.cmpe220.farm2home.demo.Classify" />
+        </activity>
+        <activity
+            android:name="com.android.cmpe220.farm2home.demo.AddEventActivity"
+            android:label="@string/title_activity_add_event"
+            android:parentActivityName="com.android.cmpe220.farm2home.demo.FarmerActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.cmpe220.farm2home.demo.FarmerActivity" />
+        </activity>
+        <activity
+            android:name="com.google.zxing.client.android.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.google.zxing.client.android.HelpActivity"
+            android:label="@string/zxing_menu_help"
+            android:screenOrientation="user"
+            android:stateNotNeeded="true" />
+        <activity
+            android:name="com.google.zxing.client.android.encode.EncodeActivity"
+            android:screenOrientation="user" />
+        <activity
+            android:name="com.google.zxing.client.androidlegacy.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.google.zxing.client.androidlegacy.HelpActivity"
+            android:screenOrientation="user" />
+        <activity
+            android:name="com.google.zxing.client.androidlegacy.encode.EncodeActivity"
+            android:screenOrientation="user" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+        <activity
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppInvite.Preview" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <provider
+            android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"
+            android:authorities="com.android.cmpe220.farm2home.demo.google_measurement_service"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>
