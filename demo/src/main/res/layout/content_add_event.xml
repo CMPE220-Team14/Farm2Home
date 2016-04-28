@@ -67,8 +67,8 @@
         android:layout_below="@id/eventName"/>
 
 
-    <!-- Input Price -->
-    <EditText android:id="@+id/inputPrice"
+    <!-- Input Participants count -->
+    <EditText android:id="@+id/participantCount"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_margin="15dip"
@@ -79,9 +79,20 @@
         android:inputType="numberDecimal"
         android:layout_below="@id/eventDay"/>
 
+    <!-- Input Participants count -->
+    <EditText android:id="@+id/eventVenue"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_marginBottom="10dip"
+        android:singleLine="true"
+        android:hint="Enter the Venue"
+        android:layout_centerHorizontal="true"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/participantCount"/>
 
     <!-- Input description -->
-    <EditText android:id="@+id/inputDescEvent"
+    <EditText android:id="@+id/eventDesc"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_margin="5dip"
@@ -90,16 +101,16 @@
         android:layout_centerHorizontal="true"
         android:hint="Describe your event in few lines"
         android:gravity="bottom"
-        android:layout_below="@id/inputPrice"/>
+        android:layout_below="@id/eventVenue"/>
 
     <!-- Button Create Product -->
-    <Button android:id="@+id/btnCreateProduct"
+    <Button android:id="@+id/buttonCreateEvent"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:text="Create Event"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="2dp"
-        android:layout_below="@id/inputDescEvent"
+        android:layout_below="@id/eventDesc"
         android:textColor="@color/black"
         android:background="@color/bud_green"/>
 
