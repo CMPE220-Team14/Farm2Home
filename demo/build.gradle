@@ -65,9 +65,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.1.0'
     compile 'com.android.support:design:23.0.0'
     compile 'com.mcxiaoke.volley:library:1.0.19'
-
-    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
-
 }
 
 android {
