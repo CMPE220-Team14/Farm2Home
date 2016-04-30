@@ -6,7 +6,14 @@
     android:padding="10dp" >
 
     <TextView
-        android:id="@+id/item_name"
+        android:id="@+id/ITEM_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000" />
+
+
+    <TextView
+        android:id="@+id/FARM_NAME"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -16,20 +23,5 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#000000" />
 
-    <TextView
-        android:id="@+id/ITEM_ID"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/item_name"
-        android:layout_below="@+id/item_name"
-        android:textColor="#000000" />
-
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/item_name"
-        android:src="@drawable/background" />
 
 </RelativeLayout>

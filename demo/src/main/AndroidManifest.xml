@@ -87,6 +87,12 @@
         <activity
             android:name=".MainScreenActivity"
             android:label="@string/app_name" />
+         <activity
+            android:name=".ReadData"
+            android:label="@string/app_name" />
+
+
+
 
         <!-- New Login Activity -->
         <activity

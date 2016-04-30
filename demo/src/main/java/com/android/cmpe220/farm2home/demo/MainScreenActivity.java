@@ -33,7 +33,7 @@ public class MainScreenActivity extends Activity{
 			@Override
 			public void onClick(View view) {
 				// Launching All products Activity
-				Intent i = new Intent(getApplicationContext(), AllProductsActivity.class);
+				Intent i = new Intent(getApplicationContext(), ReadData.class);
 				startActivity(i);
 				
 			}

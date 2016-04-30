@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 24.4.1">
+
+    <issue
+        id="WrongViewCast"
+        severity="Fatal"
+        message="Unexpected cast to `EditText`: layout tag was `TextView`"
+        category="Correctness"
+        priority="9"
+        summary="Mismatched view type"
+        explanation="Keeps track of the view types associated with ids and if it finds a usage of the id in the Java code it ensures that it is treated as the same type."
+        errorLine1="        inputEventDay = (EditText) findViewById(R.id.eventDay);"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/java/com/android/cmpe220/farm2home/demo/AddEventActivity.java"
+            line="70"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="WrongViewCast"
+        severity="Fatal"
+        message="Unexpected cast to `EditText`: layout tag was `TextView`"
+        category="Correctness"
+        priority="9"
+        summary="Mismatched view type"
+        explanation="Keeps track of the view types associated with ids and if it finds a usage of the id in the Java code it ensures that it is treated as the same type."
+        errorLine1="        inputEventMonth = (EditText) findViewById(R.id.eventMonth);"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/java/com/android/cmpe220/farm2home/demo/AddEventActivity.java"
+            line="71"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="DuplicateActivity"
+        severity="Fatal"
+        message="Duplicate registration for activity `com.android.cmpe220.farm2home.demo.FarmList`"
+        category="Correctness"
+        priority="5"
+        summary="Activity registered more than once"
+        explanation="An activity should only be registered once in the manifest. If it is accidentally registered more than once, then subtle errors can occur, since attribute declarations from the two elements are not merged, so you may accidentally remove previous declarations."
+        errorLine1="        &lt;activity android:name=&quot;.FarmList&quot; />"
+        errorLine2="                  ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml"
+            line="33"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="DuplicateActivity"
+        severity="Fatal"
+        message="Duplicate registration for activity `com.android.cmpe220.farm2home.demo.ProductActivity`"
+        category="Correctness"
+        priority="5"
+        summary="Activity registered more than once"
+        explanation="An activity should only be registered once in the manifest. If it is accidentally registered more than once, then subtle errors can occur, since attribute declarations from the two elements are not merged, so you may accidentally remove previous declarations."
+        errorLine1="        &lt;activity android:name=&quot;.ProductActivity&quot; />"
+        errorLine2="                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml"
+            line="34"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="DuplicateActivity"
+        severity="Fatal"
+        message="Duplicate registration for activity `com.android.cmpe220.farm2home.demo.ShoppingCartActivity`"
+        category="Correctness"
+        priority="5"
+        summary="Activity registered more than once"
+        explanation="An activity should only be registered once in the manifest. If it is accidentally registered more than once, then subtle errors can occur, since attribute declarations from the two elements are not merged, so you may accidentally remove previous declarations."
+        errorLine1="        &lt;activity android:name=&quot;.ShoppingCartActivity&quot; />"
+        errorLine2="                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml"
+            line="35"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="DuplicateActivity"
+        severity="Fatal"
+        message="Duplicate registration for activity `com.android.cmpe220.farm2home.demo.MainActivity`"
+        category="Correctness"
+        priority="5"
+        summary="Activity registered more than once"
+        explanation="An activity should only be registered once in the manifest. If it is accidentally registered more than once, then subtle errors can occur, since attribute declarations from the two elements are not merged, so you may accidentally remove previous declarations."
+        errorLine1="        &lt;activity android:name=&quot;.MainActivity&quot; />"
+        errorLine2="                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/karthik/Documents/Farm2Homenew_ver/demo/src/main/AndroidManifest.xml"
+            line="36"
+            column="19"/>
+    </issue>
+
+</issues>

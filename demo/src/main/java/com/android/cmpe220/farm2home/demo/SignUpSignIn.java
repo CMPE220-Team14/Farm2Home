@@ -15,7 +15,7 @@ public class SignUpSignIn extends AppCompatActivity {
         setContentView(R.layout.content_sign_up_sign_in);
 
         // Get The Refference Of Buttons
-	     btnSignIn=(Button)findViewById(R.id.buttonSignIn);
+	     btnSignIn=(Button)findViewById(R.id.SignIn);
 	     btnSignUp=(Button)findViewById(R.id.buttonSignUp);
 
          btnSignIn.setOnClickListener(new View.OnClickListener() {
@@ -23,7 +23,7 @@ public class SignUpSignIn extends AppCompatActivity {
                 // TODO Auto-generated method stub
 
                 /// Create Intent for SignUpActivity  and Start The Activity
-                Intent intentSignIn = new Intent(getApplicationContext(), NewLoginActivity.class);
+                Intent intentSignIn = new Intent(SignUpSignIn.this, NewLoginActivity.class);
 //                intentSignUP.putExtra(KEY, UserType);
                 startActivity(intentSignIn);
 
@@ -35,7 +35,7 @@ public class SignUpSignIn extends AppCompatActivity {
                 // TODO Auto-generated method stub
 
                 /// Create Intent for SignUpActivity  and Start The Activity
-                Intent intentSignUp = new Intent(getApplicationContext(), SignUPActivity.class);
+                Intent intentSignUp = new Intent(SignUpSignIn.this, SignUPActivity.class);
 //                intentSignUP.putExtra(KEY, UserType);
                 startActivity(intentSignUp);
 

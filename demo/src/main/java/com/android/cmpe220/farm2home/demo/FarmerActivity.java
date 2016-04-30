@@ -44,7 +44,7 @@ public class FarmerActivity extends Activity {
         btnAddProduct.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                Intent intentAddProduct = new Intent(getApplicationContext(),MainScreenActivity.class);
+                Intent intentAddProduct = new Intent(getApplicationContext(),NewProductActivity.class);
                 startActivity(intentAddProduct);
             }
         });
@@ -52,7 +52,7 @@ public class FarmerActivity extends Activity {
         btnUpdateProduct.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                Intent intentUpdateProduct = new Intent(getApplicationContext(),MainScreenActivity.class);
+                Intent intentUpdateProduct = new Intent(getApplicationContext(),ReadData.class);
                 startActivity(intentUpdateProduct);
             }
         });
@@ -60,14 +60,14 @@ public class FarmerActivity extends Activity {
         btnAddEvent.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                Intent intentAddEvent = new Intent(getApplicationContext(),MainScreenActivity.class);
+                Intent intentAddEvent = new Intent(getApplicationContext(),AddEventActivity.class);
                 startActivity(intentAddEvent);
             }
         });
         btnUpdateEvent.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                Intent intentUpdateEvent = new Intent(getApplicationContext(),MainScreenActivity.class);
+                Intent intentUpdateEvent = new Intent(getApplicationContext(),ReadData.class);
                 startActivity(intentUpdateEvent);
             }
         });

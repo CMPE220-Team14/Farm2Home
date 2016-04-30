@@ -1,11 +1,9 @@
 package com.android.cmpe220.farm2home.demo;
 
-
 import android.app.Application;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
-
 public class Volley_Application extends Application {
 
     private RequestQueue mRequestQueue;
@@ -45,3 +43,4 @@ public class Volley_Application extends Application {
         }
     }
 }
+

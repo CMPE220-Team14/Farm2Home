@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.android.cmpe220.farm2home.demo.MainActivity"
+    android:background="@drawable/background">
+
+
+
+    <!-- Category Label -->
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category :"
+        android:textColor="@color/black"
+        android:layout_marginTop="105dp"
+        android:paddingLeft="40dp"
+        android:textSize="17dip"
+        android:id="@+id/productCategory"
+       />
+    />
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_marginTop="95dp"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/productCategory"/>
+
+
+    <!-- Input Name -->
+    <EditText android:id="@+id/inputProduct"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:layout_marginBottom="5dip"
+        android:singleLine="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter product name"
+        android:layout_below="@id/productCategory"/>
+
+    <!-- Input Price -->
+    <EditText android:id="@+id/inputPriceProd"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="10dip"
+        android:singleLine="true"
+        android:hint="Enter price per Lb"
+        android:layout_centerHorizontal="true"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/inputProduct"/>
+
+    <!-- Input Price -->
+    <EditText android:id="@+id/inputQuantityProd"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="5dip"
+        android:singleLine="true"
+        android:hint="Enter quantity available in Lb"
+        android:layout_centerHorizontal="true"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/inputPriceProd"/>
+
+    <!-- Input description -->
+    <EditText android:id="@+id/inputDescProd"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:lines="2"
+        android:layout_centerHorizontal="true"
+        android:hint="Describe your product in few lines"
+        android:gravity="bottom"
+        android:layout_below="@id/inputQuantityProd"/>
+
+    <!-- Button Create Product -->
+    <Button android:id="@+id/btnCreateProd"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Create Product"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/inputDescProd"
+        android:textColor="@color/black"
+        android:background="@color/bud_green"/>
+
+</RelativeLayout>

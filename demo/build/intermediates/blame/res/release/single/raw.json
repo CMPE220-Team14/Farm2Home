@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/release/raw/zxinglegacy_beep.ogg",
+        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-legacy/2.0.1/res/raw/zxinglegacy_beep.ogg"
+    },
+    {
+        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/release/raw/gtm_analytics",
+        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/res/raw/gtm_analytics"
+    },
+    {
+        "merged": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/res/merged/release/raw/zxing_beep.ogg",
+        "source": "/home/karthik/Documents/Farm2Homenew_ver/demo/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/raw/zxing_beep.ogg"
+    }
+]

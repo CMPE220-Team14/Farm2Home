@@ -74,7 +74,7 @@ public class SignUPActivity extends AppCompatActivity {
 			protected void onPreExecute() {
 				super.onPreExecute();
 				loading = new ProgressDialog(SignUPActivity.this);
-				loading.setMessage("Loading products. Please wait...");
+				loading.setMessage("Registering. Please wait...");
 				loading.setIndeterminate(false);
 				loading.setCancelable(false);
 				loading.show();
@@ -114,7 +114,7 @@ public class SignUPActivity extends AppCompatActivity {
 
 	public void navigatetomain()
 	{
-		Intent intent= new Intent(this,HomeActivity.class);
+		Intent intent= new Intent(this,NewLoginActivity.class);
 		startActivity(intent);
 	}
 	@Override

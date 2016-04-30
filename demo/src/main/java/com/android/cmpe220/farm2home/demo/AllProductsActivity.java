@@ -4,14 +4,22 @@ import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.NetworkError;
+import com.android.volley.NetworkResponse;
+import com.android.volley.NoConnectionError;
+import com.android.volley.ParseError;
 import com.android.volley.Request;
 import com.android.volley.Response;
+import com.android.volley.ServerError;
+import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 
@@ -24,14 +32,14 @@ import java.util.HashMap;
 
 public class AllProductsActivity extends ListActivity {
 
-	String url = "http://ec2-52-39-72-190.us-west-2.compute.amazonaws.com/get_all_products.php?farmname=meera";
+	String url = "http://ec2-52-39-72-190.us-west-2.compute.amazonaws.com/get_all_products.php";
 	ArrayList<HashMap<String, String>> Item_List;
 	ProgressDialog PD;
 	ListAdapter adapter;
 
 	// JSON Node names
 	public static final String ITEM_ID = "FarmName";
-	public static final String ITEM_NAME = "ProductName";
+	public static final String ITEM_NAME = "Productname";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -50,9 +58,7 @@ public class AllProductsActivity extends ListActivity {
 
 	private void ReadDataFromDB() {
 		PD.show();
-		JsonObjectRequest jreq;
-		jreq = new JsonObjectRequest(Request.Method.GET, url,
-				new Response.Listener<JSONObject>() {
+		JsonObjectRequest jreq= new JsonObjectRequest(Request.Method.GET, url, new Response.Listener<JSONObject>() {
 
 					@Override
 					public void onResponse(JSONObject response) {
@@ -60,7 +66,7 @@ public class AllProductsActivity extends ListActivity {
 							int success = response.getInt("success");
 
 							if (success == 1) {
-								JSONArray ja = response.getJSONArray("products");
+								JSONArray ja = response.getJSONArray("Product");
 
 								for (int i = 0; i < ja.length(); i++) {
 
@@ -75,7 +81,7 @@ public class AllProductsActivity extends ListActivity {
 								} // for loop ends
 
 								String[] from = { ITEM_ID, ITEM_NAME };
-								int[] to = { R.id.ITEM_ID, R.id.item_name };
+								int[] to = { R.id.ITEM_ID, R.id.FARM_NAME };
 
 								adapter = new SimpleAdapter(
 										getApplicationContext(), Item_List,
@@ -96,12 +102,36 @@ public class AllProductsActivity extends ListActivity {
 
 			@Override
 			public void onErrorResponse(VolleyError error) {
+				NetworkResponse response=error.networkResponse;
+
+				if (error instanceof TimeoutError) {
+					Log.e("Volley", "TimeoutError");
+				}else if(error instanceof NoConnectionError){
+					Log.e("Volley", "NoConnectionError");
+				} else if (error instanceof AuthFailureError) {
+					Log.e("Volley", "AuthFailureError");
+				} else if (error instanceof ServerError) {
+					Log.e("Volley", "ServerError");
+				} else if (error instanceof NetworkError) {
+					Log.e("Volley", "NetworkError");
+				} else if (error instanceof ParseError) {
+					Log.e("Volley", "ParseError");
+				}
+				//You can handle error here if you want
 				PD.dismiss();
 			}
 		});
 
-		// Adding request to request queue
-		Volley_Application.getInstance().addToReqQueue(jreq);
+		try {
+			// Adding request to request queue
+
+			Volley_Application.getInstance().addToReqQueue(jreq);
+		}
+		catch (Exception e)
+		{
+			System.out.print("Error is " + e.getMessage());
+			e.printStackTrace();
+		}
 
 	}
 
@@ -117,7 +147,7 @@ public class AllProductsActivity extends ListActivity {
 			Intent modify_intent = new Intent(AllProductsActivity.this,
 					FarmerActivity.class);
 
-			modify_intent.putExtra("item", Item_List.get(position));
+		//	modify_intent.putExtra("item", Item_List.get(position));
 
 			startActivity(modify_intent);
 
