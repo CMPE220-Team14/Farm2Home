@@ -12,8 +12,10 @@
         android:layout_weight="1"
         android:layout_gravity="center"
         android:text="Farmer"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         android:onClick="signUPActivity"
-        android:background="@color/green"
+        android:background="@drawable/farmer"
         android:ems="10"></Button>
 
     <Button android:id="@+id/buttonCustomer"
@@ -21,8 +23,10 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:text="Customer"
+        android:textSize="30sp"
+        android:textColor="@color/white"
         android:onClick="signUPActivity"
-        android:background="@color/orange"></Button>
+        android:background="@drawable/consumer"></Button>
 
 
     </LinearLayout>

@@ -13,12 +13,12 @@
     <Button android:id="@+id/buttonSignUp"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="220dp"
         android:layout_centerHorizontal="true"
         android:text="Sign Up"
         android:textSize="14sp"
         android:clickable="true"
-        android:background="@color/orange"></Button>
+        android:background="@drawable/button_background"></Button>
 
     <Button android:id="@+id/SignIn"
         android:layout_width="280dp"
@@ -28,5 +28,5 @@
         android:text="Sign In"
         android:textSize="14sp"
         android:clickable="true"
-        android:background="@color/green"></Button>
+        android:background="@drawable/button_background"></Button>
 </RelativeLayout>
