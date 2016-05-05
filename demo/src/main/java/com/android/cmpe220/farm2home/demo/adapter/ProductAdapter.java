@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.android.cmpe220.farm2home.demo.R;
@@ -48,16 +49,20 @@ public class ProductAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         TextView tvName;
         TextView tvPrice;
+        TextView FarmName;
+        Spinner ITEM_QUANTITY;
         if (convertView == null) {
             convertView = LayoutInflater.from(context)
                     .inflate(R.layout.adapter_product, parent, false);
             tvName = (TextView) convertView.findViewById(R.id.tvProductName);
             tvPrice = (TextView) convertView.findViewById(R.id.tvProductPrice);
-            convertView.setTag(new ViewHolder(tvName, tvPrice));
+            FarmName = (TextView) convertView.findViewById(R.id.FarmName);
+            convertView.setTag(new ViewHolder(tvName, tvPrice, FarmName));
         } else {
             ViewHolder viewHolder = (ViewHolder) convertView.getTag();
             tvName = viewHolder.tvProductName;
             tvPrice = viewHolder.tvProductPrice;
+            FarmName = viewHolder.FarmName;
         }
 
         final Product product = getItem(position);
@@ -81,10 +86,12 @@ public class ProductAdapter extends BaseAdapter {
     private static class ViewHolder {
         public final TextView tvProductName;
         public final TextView tvProductPrice;
+        public final TextView FarmName;
 
-        public ViewHolder(TextView tvProductName, TextView tvProductPrice) {
+        public ViewHolder(TextView tvProductName, TextView tvProductPrice, TextView FarmName) {
             this.tvProductName = tvProductName;
             this.tvProductPrice = tvProductPrice;
+            this.FarmName = FarmName;
         }
     }
 }
