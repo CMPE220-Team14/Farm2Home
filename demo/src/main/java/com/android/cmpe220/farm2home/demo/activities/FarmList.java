@@ -42,10 +42,12 @@ public class FarmList extends Activity {
                 showCart();
                 return true;
             case R.id.miProfile:
-                Toast.makeText(getApplicationContext(),
+                /*Toast.makeText(getApplicationContext(),
                         "Profile",
-                        Toast.LENGTH_SHORT).show();
-                return true;
+                        Toast.LENGTH_SHORT).show();*/
+                case R.id.miSignout:
+                    signout();
+                    return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -55,5 +57,11 @@ public class FarmList extends Activity {
     {
         Intent cartActivity = new Intent(this,ShoppingCartActivity.class);
         startActivity(cartActivity);
+    }
+
+    public void signout()
+    {
+        Intent signoutActivity = new Intent(this, HomeActivity.class);
+        startActivity(signoutActivity);
     }
 }
