@@ -59,13 +59,13 @@ public class ArrayAdapterListViewActivity extends ActionBarActivity {
                                     int position, long id) {
                 final String item = (String) parent.getItemAtPosition(position);
                 if (item.equals("Fruits")) {
-                    sampleLoad();
+                    FruitLoad();
                 } else if (item.equals("Vegetables")) {
-                    sampleLoad();
+                    VegetableLoad();
                 } else if(item.equals("Dairy")) {
-                    sampleLoad();
+                    DairyLoad();
                 }else if(item.equals("Livestock")) {
-                    sampleLoad();
+                    LivestockLoad();
                 }else
                 {
                     new AlertDialog.Builder(ArrayAdapterListViewActivity.this).setTitle("Waiting for Content").setMessage("Hey,Still the Products are not added.Please check back later").setCancelable(false).setNeutralButton("OK",null).show();
@@ -76,7 +76,24 @@ public class ArrayAdapterListViewActivity extends ActionBarActivity {
 
 
     }
-    public void sampleLoad()
+    public void VegetableLoad(){
+
+        Intent intent= new Intent(this,RetriveProductsBasedOnCategory.class);
+        startActivity(intent);
+    }
+    public void FruitLoad()
+    {
+        Intent intent= new Intent(this,MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void DairyLoad()
+    {
+        Intent intent= new Intent(this,MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void LivestockLoad()
     {
         Intent intent= new Intent(this,MainActivity.class);
         startActivity(intent);
@@ -97,10 +114,12 @@ public class ArrayAdapterListViewActivity extends ActionBarActivity {
                 showCart();
                 return true;
             case R.id.miProfile:
-                Toast.makeText(getApplicationContext(),
+                /*Toast.makeText(getApplicationContext(),
                         "Profile",
-                        Toast.LENGTH_SHORT).show();
-                return true;
+                        Toast.LENGTH_SHORT).show();*/
+                case R.id.miSignout:
+                    signout();
+                    return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -110,5 +129,11 @@ public class ArrayAdapterListViewActivity extends ActionBarActivity {
     {
         Intent cartActivity = new Intent(this,ShoppingCartActivity.class);
         startActivity(cartActivity);
+    }
+
+    public void signout()
+    {
+        Intent signoutActivity = new Intent(this, HomeActivity.class);
+        startActivity(signoutActivity);
     }
 }
