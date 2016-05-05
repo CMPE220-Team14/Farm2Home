@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.android.cmpe220.farm2home.demo.MainActivity"
+    tools:context=".activities.FarmActivity"
     android:background="@drawable/background">
 
     <RelativeLayout
@@ -44,15 +44,6 @@
             android:layout_below="@+id/textView"
             android:layout_alignLeft="@+id/farm1"
             android:layout_alignStart="@+id/farm1" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Welcome to Farm2Home"
-            android:id="@+id/textView3"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true" />
 
         <ListView
             android:layout_width="wrap_content"

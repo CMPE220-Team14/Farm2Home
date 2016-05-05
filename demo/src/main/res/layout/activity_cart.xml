@@ -77,10 +77,11 @@
         android:weightSum="1">
 
         <Button
-            android:id="@+id/bBarcode"
+            android:id="@+id/bPay"
             android:layout_width="0dip"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
+            android:layout_margin="10dp"
             android:background="@color/orange"
             android:text="@string/pay"
             android:textAllCaps="true"
@@ -93,6 +94,7 @@
             android:layout_width="0dip"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
+            android:layout_margin="10dp"
             android:background="@color/orange"
             android:text="@string/shop"
             android:textAllCaps="true"

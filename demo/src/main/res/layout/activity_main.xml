@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.android.cmpe220.farm2home.demo.MainActivity"
+    tools:context=".activities.MainActivity"
     android:background="@drawable/background">
 
     <TextView
@@ -26,6 +26,13 @@
 
     <ListView
         android:id="@+id/lvProducts"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tvProductListHeader"
+        android:textColor="@color/orange"/>
+
+    <ListView
+        android:id="@+id/ITEM_QUANTITY"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_below="@id/tvProductListHeader"
