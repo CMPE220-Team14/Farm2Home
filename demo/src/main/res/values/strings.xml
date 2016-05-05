@@ -7,7 +7,7 @@
     <string name="shopping_cart">Shopping Cart</string>
     <string name="name">Name</string>
     <string name="farm_name">Farm Name</string>
-    <string name="unit_price">Price per lb</string>
+    <string name="unit_price">Price</string>
     <string name="distance_in_miles">Distance in miles</string>
     <string name="quantity">Lbs</string>
     <string name="view">View</string>
@@ -23,4 +23,9 @@
     <string name="checkout_title">Thank you for your order!</string>
     <string name="miCart">Cart</string>
     <string name="miProfile">Profile</string>
+    <string name="miSignout">Signout</string>
+    <string name="ITEM_NAME">Name</string>
+    <string name="ITEM_QUANTITY">Quantity</string>
+    <string name="FarmName">FarmName</string>
+    <string name="PricePerLb">PricePerLb</string>
 </resources>
