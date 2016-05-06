@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/miCart"
+        android:icon="@drawable/ic_cart"
+        app:showAsAction="always"
+        android:title="Cart">
+    </item>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/miProfile"
+        android:icon="@drawable/ic_profile"
+        app:showAsAction="always"
+        android:title="Profile">
+        <menu>
+        <item
+            android:id="@+id/miSignout"
+            app:showAsAction="always"
+            android:title="Signout">
+        </item>
+        </menu>
+    </item>
+</menu>
