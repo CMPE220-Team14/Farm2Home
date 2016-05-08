@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/EVENT_NAME"
+            android:padding="10dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/EVENT_FARM"
+            android:padding="10dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"/>
+
+        <TextView
+            android:id="@+id/EVENT_DATE"
+            android:padding="10dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"/>
+
+        <TextView
+            android:id="@+id/EVENT_TIME"
+            android:padding="10dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"/>
+
+        <TextView
+            android:id="@+id/EVENT_VENUE"
+            android:padding="10dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"/>
+    </TableRow>
+</TableLayout>

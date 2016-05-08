@@ -19,23 +19,4 @@
         android:textColor="@android:color/white"
         android:textSize="@dimen/product_list_header_text_size"/>
 
-    <TextView
-        android:layout_width="0dip"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.29"
-        android:gravity="center"
-        android:text="@string/unit_price"
-        android:id="@+id/ITEM_PRICE"
-        android:textColor="@android:color/white"
-        android:textSize="@dimen/product_list_header_text_size"/>
-
-    <TextView
-        android:layout_width="0dip"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.22"
-        android:gravity="center"
-        android:text="@string/farm_name"
-        android:id="@+id/FarmName"
-        android:textColor="@android:color/white"
-        android:textSize="@dimen/product_list_header_text_size"/>
 </LinearLayout>

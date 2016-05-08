@@ -14,14 +14,18 @@
         android:id="@+id/tvProductName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:background="@color/orange"
         android:gravity="center"
         android:padding="@dimen/common_padding"
         android:textAllCaps="true"
         android:textSize="@dimen/header_text_size"
         android:textStyle="bold"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tvFarmName"
+        android:layout_toEndOf="@+id/tvFarmName"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp" />
 
     <TextView
         android:id="@+id/tvFarmName"
@@ -67,14 +71,18 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
             android:gravity="center_vertical|end"
+            android:background="@color/orange"
             android:text="@string/quantity"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"/>
 
         <Spinner
             android:id="@+id/spQuantity"
             android:layout_width="0dip"
             android:layout_height="wrap_content"
-            android:layout_weight="0.3"/>
+            android:layout_weight="0.3"
+            android:background="@color/orange"/>
 
         <Button
             android:id="@+id/bOrder"
