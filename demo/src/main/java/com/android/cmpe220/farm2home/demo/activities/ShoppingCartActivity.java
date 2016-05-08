@@ -119,16 +119,16 @@ public class ShoppingCartActivity extends AppCompatActivity {
             case R.id.miCart:
                 showCart();
                 return true;
-            case R.id.miProfile:
-                /*Toast.makeText(getApplicationContext(),
-                        "Profile",
-                        Toast.LENGTH_SHORT).show();*/
-                case R.id.miSignout:
-                    signout();
-                    return true;
+            case R.id.miUser:
+                user();
+                break;
+            case R.id.miSignout:
+                signout();
+                break;
             default:
                 return super.onOptionsItemSelected(item);
         }
+        return super.onOptionsItemSelected(item);
     }
 
     public void showCart()
@@ -141,5 +141,11 @@ public class ShoppingCartActivity extends AppCompatActivity {
     {
         Intent signoutActivity = new Intent(this, HomeActivity.class);
         startActivity(signoutActivity);
+    }
+
+    public void user()
+    {
+        Intent userActivity = new Intent(this, UserProfile.class);
+        startActivity(userActivity);
     }
 }

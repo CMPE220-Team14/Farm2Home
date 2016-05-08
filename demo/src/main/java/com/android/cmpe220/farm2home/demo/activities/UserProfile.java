@@ -1,10 +1,13 @@
 package com.android.cmpe220.farm2home.demo.activities;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -13,6 +16,9 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
+
+import com.android.cmpe220.farm2home.demo.R;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -20,29 +26,29 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-
-import com.android.cmpe220.farm2home.demo.R;
-
-
-public class RetriveProductsBasedOnCategory extends AppCompatActivity{
+/**
+ * Created by pooja.prabhuswamy on 5/7/16.
+ */
+public class UserProfile extends AppCompatActivity{
 
     public String URL_GET_ALL;
-
     private ListView listView;
 
     private String JSON_STRING;
-    public static final String TAG_JSON_ARRAY="Product";
-    public static final String TAG_PRODUCTNAME = "Productname";
-    //public static final String TAG_PRICE = "PricePerLb";
-    //public static final String TAG_FARMNAME = "FarmName";
+    public static final String TAG_JSON_ARRAY="Users";
+
+    public static final String TAG_USERNAME = "Username";
+    public static final String TAG_EMAIL = "Email";
+    public static final String TAG_PHONE = "Phone_number";
+    public static final String TAG_ADDRESS = "Address";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_products);
+        setContentView(R.layout.activity_list_user);
         listView = (ListView) findViewById(R.id.listView);
         //listView.setOnItemClickListener(this);
-        listView.addHeaderView(getLayoutInflater().inflate(R.layout.product_list_header, listView, false));
+        listView.addHeaderView(getLayoutInflater().inflate(R.layout.user_list_header, listView, false));
         getJSON();
     }
 
@@ -55,14 +61,17 @@ public class RetriveProductsBasedOnCategory extends AppCompatActivity{
             JSONArray result = jsonObject.getJSONArray(TAG_JSON_ARRAY);
             for(int i = 0; i<result.length(); i++){
                 JSONObject jo = result.getJSONObject(i);
-                String productname = jo.getString(TAG_PRODUCTNAME);
-                //String price = jo.getString(TAG_PRICE);
-                //String farmname = jo.getString(TAG_FARMNAME);
+                String username = jo.getString(TAG_USERNAME);
+                String email = jo.getString(TAG_EMAIL);
+                String phone = jo.getString(TAG_PHONE);
+                String address = jo.getString(TAG_ADDRESS);
 
-                HashMap<String,String> products = new HashMap<>();
-                products.put(TAG_PRODUCTNAME, productname);
-                //products.put(TAG_FARMNAME, farmname);
-                list.add(products);
+                HashMap<String,String> userinfo = new HashMap<>();
+                userinfo.put(TAG_USERNAME, username);
+                userinfo.put(TAG_EMAIL, email);
+                userinfo.put(TAG_PHONE, phone);
+                userinfo.put(TAG_ADDRESS, address);
+                list.add(userinfo);
             }
 
         } catch (JSONException e) {
@@ -70,9 +79,9 @@ public class RetriveProductsBasedOnCategory extends AppCompatActivity{
         }
 
         ListAdapter adapter = new SimpleAdapter(
-                getApplicationContext(), list, R.layout.activity_retrieve_products,
-                new String[]{TAG_PRODUCTNAME},
-                new int[]{R.id.ITEM_NAME});
+                getApplicationContext(), list, R.layout.activity_retrieve_user,
+                new String[]{TAG_USERNAME, TAG_EMAIL, TAG_PHONE, TAG_ADDRESS},
+                new int[]{R.id.Username, R.id.Email, R.id.Phone, R.id.Address});
 
         //ListViewAdapter adapters = new ListViewAdapter(this,list);
         listView.setAdapter(adapter);
@@ -80,13 +89,13 @@ public class RetriveProductsBasedOnCategory extends AppCompatActivity{
     }
 
     private void getJSON(){
-        class GetJSON extends AsyncTask<Void,Void,String>{
+        class GetJSON extends AsyncTask<Void,Void,String> {
 
             ProgressDialog loading;
             @Override
             protected void onPreExecute() {
                 super.onPreExecute();
-                loading = ProgressDialog.show(RetriveProductsBasedOnCategory.this,"Fetching Data","Wait...",false,false);
+                loading = ProgressDialog.show(UserProfile.this,"Fetching Data","Wait...",false,false);
             }
 
             @Override
@@ -100,8 +109,7 @@ public class RetriveProductsBasedOnCategory extends AppCompatActivity{
             @Override
             protected String doInBackground(Void... params) {
                 RequestHandler rh = new RequestHandler();
-                String category = getIntent().getStringExtra("Category");
-                URL_GET_ALL  = "http://ec2-52-39-72-190.us-west-2.compute.amazonaws.com/get_products_test.php?Category="+category;
+                URL_GET_ALL  = "http://ec2-52-39-72-190.us-west-2.compute.amazonaws.com/get_user_info.php";
                 String s = rh.sendGetRequest(URL_GET_ALL);
                 return s;
             }
@@ -117,16 +125,21 @@ public class RetriveProductsBasedOnCategory extends AppCompatActivity{
         public void onItemClick(AdapterView<?> parent, View view, int position,
                                 long id) {
 
-            Intent modify_intent = new Intent(RetriveProductsBasedOnCategory.this,
-                    RetrieveFarmList.class);
+            AlertDialog.Builder alertDialog = new AlertDialog.Builder(UserProfile.this);
+            alertDialog.setTitle(R.string.eventtitle);
+            alertDialog.setMessage(R.string.eventcheck);
+            alertDialog.setCancelable(false);
+            alertDialog.setNeutralButton("OK", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int which) {
 
-            modify_intent.putExtra("Product", ((TextView)view.findViewById(R.id.ITEM_NAME)).getText().toString());
-            //modify_intent.putExtra("Farm", ((TextView)view.findViewById(R.id.FarmName)).getText().toString());
-            //modify_intent.putExtra("Price", ((TextView)view.findViewById(R.id.ITEM_PRICE)).getText().toString());
+                    Intent modify_intent = new Intent(((Dialog) dialog).getContext(),
+                            ArrayAdapterListViewActivity.class);
+                    startActivity(modify_intent);
+                    return;
+                }
 
-            //     modify_intent.putExtra("item", Item_List.get(position));
-
-            startActivity(modify_intent);
+            });
+            alertDialog.show();
 
         }
 
@@ -146,16 +159,16 @@ public class RetriveProductsBasedOnCategory extends AppCompatActivity{
             case R.id.miCart:
                 showCart();
                 return true;
-            case R.id.miUser:
-                user();
-                break;
+            case R.id.miProfile:
+                /*Toast.makeText(getApplicationContext(),
+                        "Profile",
+                        Toast.LENGTH_SHORT).show();*/
             case R.id.miSignout:
                 signout();
-                break;
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
-        return super.onOptionsItemSelected(item);
     }
 
     public void showCart()
@@ -169,11 +182,4 @@ public class RetriveProductsBasedOnCategory extends AppCompatActivity{
         Intent signoutActivity = new Intent(this, HomeActivity.class);
         startActivity(signoutActivity);
     }
-
-    public void user()
-    {
-        Intent userActivity = new Intent(this, UserProfile.class);
-        startActivity(userActivity);
-    }
-
 }

@@ -2,6 +2,7 @@ package com.android.cmpe220.farm2home.demo.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
@@ -18,7 +19,7 @@ import com.android.cmpe220.farm2home.demo.adapter.ProductAdapter;
 import com.android.cmpe220.farm2home.demo.constant.Constant;
 import com.android.cmpe220.farm2home.demo.model.Product;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
     private static final String TAG = "MainActivity";
 
     @Override
@@ -54,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu, menu);
-        return true;
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override
@@ -64,16 +65,16 @@ public class MainActivity extends AppCompatActivity {
             case R.id.miCart:
                 showCart();
                 return true;
-            case R.id.miProfile:
-                /*Toast.makeText(getApplicationContext(),
-                        "Profile",
-                        Toast.LENGTH_SHORT).show();*/
-                case R.id.miSignout:
-                    signout();
-                    return true;
+            case R.id.miUser:
+                user();
+                break;
+            case R.id.miSignout:
+                signout();
+                break;
             default:
                 return super.onOptionsItemSelected(item);
         }
+        return super.onOptionsItemSelected(item);
     }
 
     public void showCart()
@@ -86,5 +87,11 @@ public class MainActivity extends AppCompatActivity {
     {
         Intent signoutActivity = new Intent(this, HomeActivity.class);
         startActivity(signoutActivity);
+    }
+
+    public void user()
+    {
+        Intent userActivity = new Intent(this, UserProfile.class);
+        startActivity(userActivity);
     }
 }

@@ -44,6 +44,9 @@ public class ProductActivity extends AppCompatActivity {
     private String JSON_STRING;
     public static final String TAG_JSON_ARRAY="QuantityResult";
     public static final String TAG_QUANTITY = "Quantity_in_Lb";
+    public static final String TAG_DESC = "prod_desc";
+    public static final String TAG_FARMNAME = "FarmName";
+    String desc;
 
     TextView tvProductName;
     TextView tvFarmName;
@@ -54,10 +57,11 @@ public class ProductActivity extends AppCompatActivity {
     String product;
     //Farm farm;
     String farm;
-    //String price = getIntent().getStringExtra("Price").toString();
+    String price, description;
+    Integer priceVal;
+    Product product_Val = new Product();
 
-    BigDecimal bigdecimal = new BigDecimal("9.99");
-    Product product_get_desc = new Product(1, product, bigdecimal, "Product:");
+    BigDecimal bigdecimal;
     ImageView prodImage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,8 +71,11 @@ public class ProductActivity extends AppCompatActivity {
 
         product = getIntent().getStringExtra("Product");
         farm = getIntent().getStringExtra("Farm");
-
-        URL_GET_ALL = "http://ec2-52-39-72-190.us-west-2.compute.amazonaws.com/get_quantity_test.php?Productname="+product;
+        price = getIntent().getStringExtra("Price");
+        priceVal = Integer.parseInt(price);
+        bigdecimal = new BigDecimal(priceVal);
+        product_Val.setName(product);
+        product_Val.setPrice(bigdecimal);
 
         //Retrieve views
         retrieveViews();
@@ -111,6 +118,7 @@ public class ProductActivity extends AppCompatActivity {
             @Override
             protected String doInBackground(Void... params) {
                 RequestHandler rh = new RequestHandler();
+                URL_GET_ALL = "http://ec2-52-39-72-190.us-west-2.compute.amazonaws.com/get_quantity_test.php?Productname="+getIntent().getStringExtra("Product");
                 String s = rh.sendGetRequest(URL_GET_ALL);
                 return s;
             }
@@ -128,9 +136,7 @@ public class ProductActivity extends AppCompatActivity {
 
         tvProductName.setText(product);
         tvFarmName.setText(farm);
-        product_get_desc.setName(product);
-        tvProductDesc.setText("This vegetable is the most famous one.");
-        String uri = "@drawable/img"+1;  // where myresource.png is the file
+        String uri = "@drawable/"+product.toLowerCase();  // where myresource.png is the file
         // extension removed from the String
 
         int imageResource = getResources().getIdentifier(uri, null, getPackageName());
@@ -152,10 +158,16 @@ public class ProductActivity extends AppCompatActivity {
             JSONArray result = jsonObject.getJSONArray(TAG_JSON_ARRAY);
             for(int i = 0; i<result.length(); i++){
                 JSONObject jo = result.getJSONObject(i);
-                String quantity = jo.getString(TAG_QUANTITY);
-                for(int j = 0; j <= Integer.parseInt(quantity.toString()); j++)
-                    QUANTITY_LIST.add(j);
+                String farmname = jo.getString(TAG_FARMNAME);
+                if (farm.equals(farmname)) {
+                    String quantity = jo.getString(TAG_QUANTITY);
+                    desc = jo.getString(TAG_DESC);
+                    for (int j = 0; j <= Integer.parseInt(quantity.toString()); j++)
+                        QUANTITY_LIST.add(j);
+                }
             }
+
+            tvProductDesc.setText(desc);
 
         } catch (JSONException e) {
             e.printStackTrace();
@@ -172,8 +184,8 @@ public class ProductActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Cart cart = CartHelper.getCart();
-                Log.d(TAG, "Adding product: " + product_get_desc.getName());
-                cart.add(product_get_desc, Integer.valueOf(spQuantity.getSelectedItem().toString()));
+                Log.d(TAG, "Adding product: " + product);
+                cart.add(product_Val, Integer.valueOf(spQuantity.getSelectedItem().toString()));
                 Intent intent = new Intent(ProductActivity.this, ShoppingCartActivity.class);
                 startActivity(intent);
             }
@@ -194,16 +206,16 @@ public class ProductActivity extends AppCompatActivity {
             case R.id.miCart:
                 showCart();
                 return true;
-            case R.id.miProfile:
-                /*Toast.makeText(getApplicationContext(),
-                        "Profile",
-                        Toast.LENGTH_SHORT).show();*/
-                case R.id.miSignout:
-                    signout();
-                    return true;
+            case R.id.miUser:
+                user();
+                break;
+            case R.id.miSignout:
+                signout();
+                break;
             default:
                 return super.onOptionsItemSelected(item);
         }
+        return super.onOptionsItemSelected(item);
     }
 
     public void showCart()
@@ -216,6 +228,12 @@ public class ProductActivity extends AppCompatActivity {
     {
         Intent signoutActivity = new Intent(this, HomeActivity.class);
         startActivity(signoutActivity);
+    }
+
+    public void user()
+    {
+        Intent userActivity = new Intent(this, UserProfile.class);
+        startActivity(userActivity);
     }
 
 }

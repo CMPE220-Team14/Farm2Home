@@ -36,8 +36,8 @@ public class RetrieveFarmList extends AppCompatActivity{
     private String JSON_STRING;
     public static final String TAG_JSON_ARRAY="Farm";
     public static final String TAG_FARMNAME = "FarmName";
-    public static final String TAG_DISTANCE = "Distance";
-    public static final String TAG_QUANTITY = "Quantity";
+    public static final String TAG_PRICE = "PricePerLb";
+    public static final String TAG_DISTANCE= "Distance";
 
     private Spinner spinner;
 
@@ -61,11 +61,12 @@ public class RetrieveFarmList extends AppCompatActivity{
             for(int i = 0; i<result.length(); i++){
                 JSONObject jo = result.getJSONObject(i);
                 String farmname = jo.getString(TAG_FARMNAME);
-                String distance = jo.getString(TAG_DISTANCE);
-                String quantity = jo.getString(TAG_QUANTITY);
+                String distance = "2.5";
+                String price = jo.getString(TAG_PRICE);
 
                 HashMap<String,String> farms = new HashMap<>();
                 farms.put(TAG_FARMNAME, farmname);
+                farms.put(TAG_PRICE, price);
                 farms.put(TAG_DISTANCE, distance);
                 list.add(farms);
             }
@@ -76,8 +77,8 @@ public class RetrieveFarmList extends AppCompatActivity{
 
         ListAdapter adapter = new SimpleAdapter(
                 getApplicationContext(), list, R.layout.activity_retrieve_farmlist,
-                new String[]{TAG_FARMNAME, TAG_DISTANCE},
-                new int[]{R.id.FarmName, R.id.Distance});
+                new String[]{TAG_FARMNAME, TAG_PRICE, TAG_DISTANCE},
+                new int[]{R.id.FarmName, R.id.ITEM_PRICE, R.id.Distance});
 
         //ListViewAdapter adapters = new ListViewAdapter(this,list);
         listView.setAdapter(adapter);
@@ -124,8 +125,9 @@ public class RetrieveFarmList extends AppCompatActivity{
             Intent modify_intent = new Intent(RetrieveFarmList.this,
                     ProductActivity.class);
 
-            modify_intent.putExtra("FarmName", ((TextView)view.findViewById(R.id.FarmName)).getText().toString());
+            modify_intent.putExtra("Farm", ((TextView)view.findViewById(R.id.FarmName)).getText().toString());
             modify_intent.putExtra("Product",getIntent().getStringExtra("Product"));
+            modify_intent.putExtra("Price", ((TextView)view.findViewById(R.id.ITEM_PRICE)).getText().toString());
 
             //     modify_intent.putExtra("item", Item_List.get(position));
 
@@ -149,16 +151,16 @@ public class RetrieveFarmList extends AppCompatActivity{
             case R.id.miCart:
                 showCart();
                 return true;
-            case R.id.miProfile:
-                /*Toast.makeText(getApplicationContext(),
-                        "Profile",
-                        Toast.LENGTH_SHORT).show();*/
+            case R.id.miUser:
+                user();
+                break;
             case R.id.miSignout:
                 signout();
-                return true;
+                break;
             default:
                 return super.onOptionsItemSelected(item);
         }
+        return super.onOptionsItemSelected(item);
     }
 
     public void showCart()
@@ -171,6 +173,12 @@ public class RetrieveFarmList extends AppCompatActivity{
     {
         Intent signoutActivity = new Intent(this, HomeActivity.class);
         startActivity(signoutActivity);
+    }
+
+    public void user()
+    {
+        Intent userActivity = new Intent(this, UserProfile.class);
+        startActivity(userActivity);
     }
 
 
