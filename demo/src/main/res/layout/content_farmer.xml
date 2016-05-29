@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        android:id="@+id/FarmerName"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"/>
+
+    <Button android:id="@+id/buttonAddProduct"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="0.25"
+        android:layout_below="@id/FarmerName"
+        android:textColor="@color/white"
+        android:text="Add product"
+        android:textSize="20sp"
+        android:onClick="FarmerActivity"
+        android:background="@drawable/brownvegetables"></Button>
+
+    <Button android:id="@+id/buttonUpdateProduct"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="2dp"
+        android:text="View product"
+        android:layout_weight="0.25"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:onClick="FarmerActivity"
+        android:background="@drawable/fruits"
+        android:layout_below="@+id/buttonAddProduct"></Button>
+
+    <Button android:id="@+id/buttonAddEvent"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/buttonUpdateProduct"
+        android:layout_marginTop="2dp"
+        android:layout_weight="0.25"
+        android:textColor="@color/white"
+        android:text="Add event"
+        android:textSize="20sp"
+        android:onClick="FarmerActivity"
+        android:background="@drawable/fruitplucking"></Button>
+
+    <Button android:id="@+id/buttonUpdateEvent"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="2dp"
+        android:text="Update event"
+        android:layout_weight="0.25"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:onClick="FarmerActivity"
+        android:background="@drawable/farmevents"
+        android:layout_below="@id/buttonAddEvent"></Button>
+
+</LinearLayout>

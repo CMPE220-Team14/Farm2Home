@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/green"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/common_padding"
+    android:paddingTop="@dimen/common_padding"
+    android:weightSum="1"
+    android:shrinkColumns="*"
+    android:stretchColumns="*">
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.21"
+        android:gravity="center"
+        android:text="Event"
+        android:id="@+id/EVENT_NAME"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/product_list_header_text_size"/>
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.21"
+        android:gravity="center"
+        android:text="Farm"
+        android:id="@+id/EVENT_FARM"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/product_list_header_text_size"/>
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.21"
+        android:gravity="center"
+        android:text="Date"
+        android:id="@+id/EVENT_DATE"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/product_list_header_text_size"/>
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.21"
+        android:gravity="center"
+        android:text="Time"
+        android:id="@+id/EVENT_TIME"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/product_list_header_text_size"/>
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.21"
+        android:gravity="center"
+        android:text="Venue"
+        android:id="@+id/EVENT_VENUE"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/product_list_header_text_size"/>
+
+</LinearLayout>

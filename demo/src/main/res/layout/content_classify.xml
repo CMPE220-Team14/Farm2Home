@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+
+    <Button android:id="@+id/buttonFarmer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Farmer"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:onClick="signUPActivity"
+        android:background="@drawable/farmer"
+        android:ems="10"></Button>
+
+    <Button android:id="@+id/buttonCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Customer"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:onClick="signUPActivity"
+        android:background="@drawable/consumer"></Button>
+
+
+    </LinearLayout>
+
+

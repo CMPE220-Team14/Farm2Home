@@ -2,46 +2,100 @@
 <manifest
     package="com.android.cmpe220.farm2home.demo"
     xmlns:android="http://schemas.android.com/apk/res/android">
-
     <!-- for card.io card scanning -->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <uses-feature android:name="android.hardware.camera" android:required="false" />
     <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
-
     <!-- for most things, including card.io & paypal -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
+        android:name=".farmer_activities.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
-        <activity android:name=".FarmList"/>
-        <activity android:name="com.android.cmpe220.farm2home.demo.ProductActivity"/>
-        <activity android:name="com.android.cmpe220.farm2home.demo.ShoppingCartActivity"/>
-        <activity android:name="com.android.cmpe220.farm2home.demo.GoogleWallet"/>
-        <activity android:name="com.android.cmpe220.farm2home.demo.BarcodeScan"/>
-        <activity android:name="com.android.cmpe220.farm2home.demo.MainActivity"/>
+        android:theme="@style/CustomActionBarTheme">
+        <activity android:name=".consumer_activities.ConsumerBillingActivity"/>
+        <activity android:name=".consumer_activities.ConsumerFarmActivity" />
+        <activity android:name=".consumer_activities.ConsumerFarmList"/>
+        <activity android:name=".consumer_activities.ConsumerGoogleWallet"/>
+        <activity android:name=".consumer_activities.ConsumerListViewActivity"/>
+        <activity android:name=".consumer_activities.ConsumerHomeActivity"/>
+        <activity android:name=".consumer_activities.ConsumerLoginActivity"
+            android:label="Consumer Login" />
+        <activity android:name=".consumer_activities.ConsumerMainActivity"/>
+        <activity android:name=".consumer_activities.ConsumerPayPal_sdk"/>
+        <activity android:name=".consumer_activities.ConsumerProductActivity"/>
+        <activity android:name=".consumer_activities.ConsumerRetrieveEvents" />
+        <activity android:name=".consumer_activities.ConsumerRetrieveFarmList"/>
+        <activity android:name=".consumer_activities.ConsumerRetrieveProductsBasedOnCategory"/>
+        <activity android:name=".consumer_activities.ConsumerShoppingCartActivity"/>
+        <activity android:name=".consumer_activities.ConsumerSignUPActivity"/>
+        <activity android:name=".consumer_activities.ConsumerSignUpSignIn"/>
+        <activity android:name=".consumer_activities.ConsumerUserProfile" />
+
+        <!-- Add Event Activity -->
+        <activity android:name=".farmer_activities.AddEventActivity"
+            android:label="Events" />
+        <!-- All Product Activity -->
+        <activity android:name=".farmer_activities.AllProductsActivity"
+            android:label="All Products" />
+        <activity android:name=".farmer_activities.Classify"
+            android:label="@string/title_activity_classify"
+            android:parentActivityName=".farmer_activities.HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.cmpe220.farm2home.demo.farmer_activities.HomeActivity" />
+        </activity>
+        <!-- Edit Product Activity -->
         <activity
-            android:name="com.android.cmpe220.farm2home.demo.HomeActivity"
-            android:label="@string/app_name" >
+            android:name=".farmer_activities.EditProductActivity"
+            android:label="Edit Product" />
+        <activity
+            android:name=".farmer_activities.UpdateDeleteProduct"
+            android:label="Update_Delete_Product" />
+        <activity android:name=".farmer_activities.Farmer_Product"
+            android:label="View Products" />
+        <activity android:name=".farmer_activities.FarmerActivity"
+            android:label="@string/title_activity_farmer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.cmpe220.farm2home.demo.farmer_activities.HomeActivity" />
+        </activity>
+        <!-- New Login Activity -->
+        <activity
+            android:name=".farmer_activities.FarmerLoginActivity"
+            android:label="Farmer Login" />
+        <!-- Sign Up Activity -->
+        <activity
+            android:name=".farmer_activities.FarmerSignUPActivity"
+            android:label="Farmer SignUp" />
+        <!-- Sign Up Sign In Activity -->
+        <activity
+            android:name=".farmer_activities.FarmerSignUpSignIn"
+            android:label="Farmer SignUp Sign In" />
+        <activity
+            android:name=".farmer_activities.HomeActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name="com.android.cmpe220.farm2home.demo.SignUPActivity"/>
-<activity android:name="com.android.cmpe220.farm2home.demo.ArrayAdapterListViewActivity"/>
-
+            android:name=".farmer_activities.MainScreenActivity"
+            android:label="@string/app_name" />
+        <!-- Add Product Activity -->
         <activity
-            android:name="com.android.cmpe220.farm2home.demo.PayPal_sdk"/>
-
+            android:name=".farmer_activities.NewProductActivity"
+            android:label="Add New Product" />
+        <activity
+            android:name=".farmer_activities.ReadData"
+            android:label="@string/app_name" />
 
         <service
             android:name="com.paypal.android.sdk.payments.PayPalService"

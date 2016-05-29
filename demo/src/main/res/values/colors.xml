@@ -3,4 +3,11 @@
     <color name="orange">#ff5500</color>
     <color name="palewhite">#D9D6D6</color>
     <color name="transparent">#200000</color>
+    <color name="black">#000000</color>
+    <color name="bud_green">#7BB661</color>
+    <color name="cadmium_orange">#ED872D</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="actionbar_background">#A4C639</color>
+    <color name="actionbar_text">#ffffff</color>
 </resources>

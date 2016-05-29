@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/ITEM_NAME"
+            android:padding="10dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:textStyle="bold"/>
+        <!-- <TextView
+            android:id="@+id/ITEM_PRICE"
+            android:padding="10dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"/> -->
+
+        <!-- <TextView
+            android:id="@+id/FarmName"
+            android:padding="10dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"/> -->
+    </TableRow>
+</TableLayout>

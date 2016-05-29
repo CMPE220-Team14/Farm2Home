@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.cmpe220.farm2home.demo">
+
+    <!-- for card.io card scanning -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <!-- for most things, including card.io & paypal -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="Farm2Home"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".farmer_activities.FarmList" />
+        <activity android:name=".farmer_activities.ProductActivity" />
+        <activity android:name=".farmer_activities.ShoppingCartActivity" />
+        <activity android:name=".farmer_activities.GoogleWallet" />
+        <activity android:name=".farmer_activities.BarcodeScan" />
+        <activity android:name=".farmer_activities.MainActivity" />
+        <activity android:name=".farmer_activities.FarmList" />
+        <activity android:name=".farmer_activities.ProductActivity" />
+        <activity android:name=".farmer_activities.ShoppingCartActivity" />
+        <activity android:name=".farmer_activities.MainActivity" />
+        <activity
+            android:name=".farmer_activities.HomeActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".farmer_activities.SignUPActivity" />
+        <activity android:name=".farmer_activities.ArrayAdapterListViewActivity" />
+        <activity android:name=".farmer_activities.PayPal_sdk" />
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+        <activity
+            android:name=".Classify"
+            android:label="@string/title_activity_classify"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.cmpe220.farm2home.demo.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".FarmerActivity"
+            android:label="@string/title_activity_farmer"
+            android:parentActivityName=".HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.cmpe220.farm2home.demo.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".AddProductActivity"
+            android:label="@string/title_activity_add_product"
+            android:parentActivityName=".FarmerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.cmpe220.farm2home.demo.FarmerActivity" />
+        </activity>
+        <activity
+            android:name=".MainScreenActivity"
+            android:label="@string/app_name" />
+         <activity
+            android:name=".ReadData"
+            android:label="@string/app_name" />
+
+
+
+
+        <!-- New Login Activity -->
+        <activity
+            android:name=".NewLoginActivity"
+            android:label="Login" />
+
+        <!-- All Product Activity -->
+        <activity
+            android:name=".AllProductsActivity"
+            android:label="All Products" />
+
+        <!-- Add Product Activity -->
+        <activity
+            android:name=".NewProductActivity"
+            android:label="Add New Product" />
+
+        <!-- Edit Product Activity -->
+        <activity
+            android:name=".EditProductActivity"
+            android:label="Edit Product" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".SignUpSignIn"
+            android:label="@string/title_activity_sign_up_sign_in"
+            android:parentActivityName=".Classify"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.cmpe220.farm2home.demo.Classify" />
+        </activity>
+        <activity
+            android:name=".AddEventActivity"
+            android:label="@string/title_activity_add_event"
+            android:parentActivityName=".FarmerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.cmpe220.farm2home.demo.FarmerActivity" />
+        </activity>
+    </application>
+
+</manifest>
